@@ -1282,5 +1282,480 @@
     "prompt": "Co vám teď brání v dalším posunu? Napište jeden konkrétní krok, který zkusíte příště, a jak poznáte, že pomohl.",
     "watch": "Vyhněte se vágním slibům typu budu se víc snažit. Krok musí jít pozorovat a provést.",
     "origin": "added"
+  },
+  {
+    "id": 66,
+    "phase": "E",
+    "name": "Dvě pravdy a jedna lež",
+    "description": "Žáci k tématu vymyslí dvě pravdivá tvrzení a jedno nepravdivé a spolužáci hádají, které je lež.",
+    "use": "Vybavení předchozích znalostí a odhalení mylných představ hravou formou.",
+    "example": "Téma sopky: 1) Láva může mít přes 1000 °C. 2) Sopky vznikají jen na moři. 3) Některé sopky jsou pod ledem.",
+    "steps": [
+      "Vysvětlete pravidla a dejte čas na přípravu tří tvrzení.",
+      "Ve dvojicích žáci hádají, které tvrzení je nepravdivé, a vysvětlí proč.",
+      "Sporné body zapište na tabuli jako otázky pro další učení."
+    ],
+    "minutes": 10,
+    "group": "pairs",
+    "materials": "Papír a tužka",
+    "prompt": "K tématu dnešní hodiny napište tři tvrzení: dvě pravdivá a jedno nepravdivé. Spolužák hádá, které je lež, a vysvětlí proč.",
+    "watch": "Lži opravte hned při hádání, aby si je žáci nezapamatovali jako fakt.",
+    "origin": "added"
+  },
+  {
+    "id": 67,
+    "phase": "E",
+    "name": "Titulek dne",
+    "description": "Žáci napíšou titulek novinové zprávy o tématu podle toho, co o něm zatím vědí.",
+    "use": "Rychlé vybavení znalostí a otevření tématu s nadhledem.",
+    "example": "K tématu sopky: „Sopka, která spí, se může kdykoli probudit.“",
+    "steps": [
+      "Zadejte téma a ukažte, jak vypadá výstižný titulek.",
+      "Žáci mají dvě minuty na vlastní krátký titulek.",
+      "Přečtěte několik titulků nahlas a zapište, co z nich o tématu vyplývá."
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Napište titulek zprávy o tématu hodiny. Má mít nejvýše deset slov a vyjadřovat to, co o tématu už víte.",
+    "watch": "Titulky nehodnoťte jako správné nebo chybné. Slouží ke zjištění výchozích představ.",
+    "origin": "added"
+  },
+  {
+    "id": 68,
+    "phase": "E",
+    "name": "Nakresli, co si představíš",
+    "description": "Žáci rychlou kresbou nebo schématem ukážou, co si pod pojmem představují.",
+    "use": "Odhalení představ, které žáci neumějí hned popsat slovy; hodí se pro mladší žáky i pro cizí jazyky.",
+    "example": "Nakresli, jak podle tebe vypadá vnitřek Země.",
+    "steps": [
+      "Zadejte pojem nebo jev a řekněte, že nejde o výtvarné dílo.",
+      "Žáci kreslí dvě minuty bez dalších rad.",
+      "Kresby porovnejte ve dvojicích a vyberte otázku, na kterou odpoví hodina."
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Nakreslete, co si představíte, když se řekne… Stačí jednoduchý obrázek nebo schéma. Nejde o to, jak hezky kreslíte.",
+    "watch": "Kresby neopravujte hned. Porovnáte je s tím, co žáci zjistí na konci hodiny.",
+    "origin": "added"
+  },
+  {
+    "id": 69,
+    "phase": "E",
+    "name": "Co by se stalo, kdyby…?",
+    "description": "Žáci odhadují důsledky hypotetické situace spojené s tématem.",
+    "use": "Probuzení zvědavosti a zjištění, jak žáci uvažují o příčinách a důsledcích.",
+    "example": "Co by se stalo, kdyby zmizel Měsíc?",
+    "steps": [
+      "Položte otázku a nechte žáky chvíli přemýšlet v tichosti.",
+      "Sbírejte odpovědi a ptejte se: Proč si to myslíš?",
+      "Zapište nápady, které se v hodině ověří."
+    ],
+    "minutes": 5,
+    "group": "class",
+    "materials": "Otázka na tabuli",
+    "prompt": "Co by se stalo, kdyby… Řekněte svůj odhad a vysvětlete, proč si to myslíte.",
+    "watch": "Přijímejte i neobvyklé odhady a ptejte se na důvody. K ověření se vraťte na konci hodiny.",
+    "origin": "added"
+  },
+  {
+    "id": 70,
+    "phase": "E",
+    "name": "Řetěz asociací",
+    "description": "Každý žák navazuje na slovo předchozího a vzniká řetěz pojmů, které souvisejí s tématem.",
+    "use": "Rychlé rozproudění třídy a zjištění, jaké pojmy žáci s tématem spojují.",
+    "example": "Řeka → pramen → hory → sníh → lavina…",
+    "steps": [
+      "Řekněte první pojem k tématu.",
+      "Žáci postupně přidávají souvisejícího pojem; opakovat se nesmí.",
+      "Slova zapisujte na tabuli a podtrhněte ta, která překvapila nebo se opakují."
+    ],
+    "minutes": 5,
+    "group": "class",
+    "materials": "Tabule",
+    "prompt": "Řekněte jedno slovo, které vás napadne po předchozím slově a souvisí s tématem. Nic neopakujeme.",
+    "watch": "Nechte řetěz běžet svižně. Pokud někdo váhá, může říct „podávám“ a pokračuje další.",
+    "origin": "added"
+  },
+  {
+    "id": 71,
+    "phase": "E",
+    "name": "Najdi spolužáka, který…",
+    "description": "Žáci chodí po třídě a hledají spolužáky, kteří o tématu něco vědí nebo s ním mají zkušenost.",
+    "use": "Propojení zkušeností žáků s tématem a aktivizace pohybem.",
+    "example": "Téma recyklace: Najdi někoho, kdo ví, do které nádoby patří tetrapak.",
+    "steps": [
+      "Připravte šest až osm výroků k tématu.",
+      "Žáci obcházejí třídu a sbírají podpisy spolužáků, pro které výrok platí. Každý se podepíše jen jednou.",
+      "Společně vyhodnoťte, co překvapilo, a zapište otázky."
+    ],
+    "minutes": 10,
+    "group": "class",
+    "materials": "Papír s šesti až osmi výroky",
+    "prompt": "Obejděte třídu a ke každému výroku najděte spolužáka, pro kterého platí. Jeden spolužák se podepíše jen jednou.",
+    "watch": "Výroky formulujte tak, aby nikoho neodhalovaly ani nezahanbovaly. Vyhněte se osobním tématům.",
+    "origin": "added"
+  },
+  {
+    "id": 72,
+    "phase": "E",
+    "name": "Kolotoč nápadů",
+    "description": "Skupiny kolují mezi plakáty s otázkami k tématu a ke každému připisují své nápady.",
+    "use": "Sběr znalostí a představ celé třídy a zapojení všech žáků pohybem.",
+    "example": "Plakáty: Co víme o vodě? Kde všude se voda používá? Co o vodě nevíme?",
+    "steps": [
+      "Rozmístěte po třídě tři až čtyři plakáty s otázkami k tématu.",
+      "Skupiny mají u každého plakátu dvě minuty, připisují nápady svou barvou fixy a po signálu se posunou dál.",
+      "Každá skupina shrne plakát, u kterého skončila, a vyberte otázky k dalšímu učení."
+    ],
+    "minutes": 15,
+    "group": "group",
+    "materials": "Velké papíry a fixy v několika barvách",
+    "prompt": "U každého plakátu připište své nápady k otázce. Po signálu přejděte k dalšímu. Čtěte, co napsali ostatní, a rozvíjejte to.",
+    "watch": "Pohlídejte čas na přesuny; dvě minuty u plakátu stačí. Plakáty využijte znovu v závěru hodiny.",
+    "origin": "added"
+  },
+  {
+    "id": 73,
+    "phase": "E",
+    "name": "Video bez zvuku",
+    "description": "Žáci sledují krátký záznam bez zvuku a odhadují, co se děje a proč.",
+    "use": "Vzbuzení zvědavosti a vyvolání otázek před výkladem.",
+    "example": "Minutový záznam pokusu s ledem: Co se podle vás stane na konci?",
+    "steps": [
+      "Pusťte 30 až 60 sekund záznamu bez zvuku.",
+      "Žáci ve dvojicích napíšou, co vidí, co se podle nich děje a co se stane dál.",
+      "Pusťte záznam znovu se zvukem nebo s vysvětlením a porovnejte odhady."
+    ],
+    "minutes": 5,
+    "group": "pairs",
+    "materials": "Krátký záznam a projektor",
+    "prompt": "Sledujte záznam bez zvuku. Napište, co vidíte, co se podle vás děje a co se stane dál.",
+    "watch": "Vyberte záznam, ve kterém se něco mění. Statické záběry otázky nevyvolají.",
+    "origin": "added"
+  },
+  {
+    "id": 74,
+    "phase": "E",
+    "name": "Kde jsem se s tím potkal/a",
+    "description": "Žáci sdílejí, kde se s tématem už setkali, a propojí to s hodinou.",
+    "use": "Vztažení učiva k životu žáků a zvýšení motivace.",
+    "example": "Téma energie: Doma jsem viděl/a solární panely na střeše.",
+    "steps": [
+      "Řekněte téma a zeptejte se, kde se s ním žáci setkali.",
+      "Žáci si minutu připraví jednu zkušenost a řeknou ji sousedovi.",
+      "Z několika příběhů vyberte společné prvky a zapište je."
+    ],
+    "minutes": 5,
+    "group": "pairs",
+    "materials": "Bez pomůcek",
+    "prompt": "Vzpomeňte si, kde jste se s tématem setkali: doma, na cestách, v médiích. Řekněte spolužákovi jednu konkrétní zkušenost.",
+    "watch": "Žáci nemusí sdílet nic osobního. Stačí příklad z médií nebo ze světa kolem.",
+    "origin": "added"
+  },
+  {
+    "id": 75,
+    "phase": "U",
+    "name": "Horké křeslo",
+    "description": "Jeden žák nebo učitel v roli postavy či odborníka odpovídá na otázky ostatních.",
+    "use": "Hlubší porozumění postavám, událostem a pohledům na problém.",
+    "example": "Žák v roli Jana Husa odpovídá na otázky spolužáků.",
+    "steps": [
+      "Žáci si připraví otázky k tématu.",
+      "Vybraný žák usedne do křesla v roli postavy a odpovídá podle toho, co zjistil.",
+      "Po skončení role společně shrňte, co z odpovědí vyplynulo."
+    ],
+    "minutes": 20,
+    "group": "class",
+    "materials": "Židle a připravené otázky",
+    "prompt": "Připravte si dvě otázky pro postavu. Ptejte se tak, aby odpověď vyžadovala vysvětlení, ne jen ano nebo ne.",
+    "watch": "Roli připravte předem a ujasněte, že se nehodnotí herecký výkon. Zabraňte posměškům.",
+    "origin": "added"
+  },
+  {
+    "id": 76,
+    "phase": "U",
+    "name": "Reciproční čtení",
+    "description": "Žáci čtou text po částech a střídají čtyři role: předvídá, ptá se, vysvětluje, shrnuje.",
+    "use": "Porozumění náročnějšímu textu a rozvoj čtenářských strategií.",
+    "example": "Čtyřčlenná skupina čte článek o včelách po odstavcích a role si po každém odstavci předá.",
+    "steps": [
+      "Rozdělte role a text na krátké úseky.",
+      "Po každém úseku žák ve své roli předpoví, co bude dál, zeptá se, vysvětlí nejasnost nebo shrne.",
+      "Role se střídají; skupina nakonec shrne celý text jednou větou."
+    ],
+    "minutes": 20,
+    "group": "group",
+    "materials": "Text rozdělený na úseky a kartičky rolí",
+    "prompt": "Čtěte text po úsecích. Podle své role předvídejte, ptejte se, vysvětlujte nebo shrňte. Po každém úseku se role vystřídají.",
+    "watch": "Roli nejdřív vyzkoušejte na krátkém textu s celou třídou. Skupiny fungují nejlépe po čtyřech.",
+    "origin": "added"
+  },
+  {
+    "id": 77,
+    "phase": "U",
+    "name": "Cornellův zápis",
+    "description": "Žák rozdělí list na poznámky, otázky a shrnutí a zápis pak použije k opakování.",
+    "use": "Systematické zapisování a snadný návrat k učivu.",
+    "example": "Vpravo poznámky z výkladu, vlevo klíčová slova a otázky, dole shrnutí jednou větou.",
+    "steps": [
+      "Ukažte rozdělení listu na úzký levý sloupec, široký pravý sloupec a pruh dole.",
+      "Při výkladu nebo čtení žáci zapisují poznámky vpravo; potom doplní vlevo klíčová slova a otázky.",
+      "Do pruhu dole napíší shrnutí svými slovy a ve dvojici si podle otázek zápis ověří."
+    ],
+    "minutes": 20,
+    "group": "alone",
+    "materials": "Papír rozdělený do tří částí",
+    "prompt": "Do pravého sloupce zapisujte hlavní myšlenky. Potom doplňte vlevo klíčová slova a otázky a dole vše shrňte jednou větou.",
+    "watch": "Při prvním použití dejte vzor. Nepožadujte dokonalý zápis, hlavní je, aby ho žáci uměli použít k opakování.",
+    "origin": "added"
+  },
+  {
+    "id": 78,
+    "phase": "U",
+    "name": "Fakt, nebo názor?",
+    "description": "Žáci v textu nebo ve výrocích rozlišují ověřitelná tvrzení od názorů a hodnocení.",
+    "use": "Kritické čtení a práce se zdroji.",
+    "example": "„Vltava je dlouhá 430 km.“ je fakt. „Vltava je nejkrásnější řeka.“ je názor.",
+    "steps": [
+      "Vyberte krátký text nebo šest až osm výroků.",
+      "Ve dvojicích žáci výroky označí F (fakt) nebo N (názor) a svou volbu zdůvodní.",
+      "Řekněte, jak by se fakta dala ověřit, a probereme sporné případy."
+    ],
+    "minutes": 10,
+    "group": "pairs",
+    "materials": "Text nebo výroky na papíře",
+    "prompt": "U každého výroku určete, zda jde o fakt, nebo o názor. U faktu napište, kde bychom ho ověřili.",
+    "watch": "Zařaďte i hraniční případy, ať žáci diskutují o důvodech. U hodnotících výroků často není jedna správná odpověď.",
+    "origin": "added"
+  },
+  {
+    "id": 79,
+    "phase": "U",
+    "name": "Vidím – myslím – ptám se",
+    "description": "Žáci pozorují obrázek, předmět nebo data a odpovídají: co vidím, co si myslím, na co se ptám.",
+    "use": "Pozorování, formulace hypotéz a tvorba otázek.",
+    "example": "U fotografie historické ulice: Vidím koňský povoz. Myslím, že je to 19. století. Ptám se, proč jsou domy nízké.",
+    "steps": [
+      "Ukažte obrázek, předmět nebo graf a nechte žáky chvíli tiše pozorovat.",
+      "Žáci zapisují do tří sloupců: vidím, myslím si, ptám se.",
+      "Ve dvojicích porovnejte zápisy a sesbírejte otázky, na které odpoví učivo."
+    ],
+    "minutes": 10,
+    "group": "pairs",
+    "materials": "Obrázek, předmět nebo graf",
+    "prompt": "Pozorně si to prohlédněte. Napište, co vidíte, co si o tom myslíte a na co se ptáte.",
+    "watch": "Oddělujte pozorování od výkladu. Když žák uvede domněnku jako pozorování, pomozte mu ji přeformulovat.",
+    "origin": "added"
+  },
+  {
+    "id": 80,
+    "phase": "U",
+    "name": "Předpověz – pozoruj – vysvětli",
+    "description": "Žáci předem odhadnou výsledek ukázky nebo pokusu, sledují ho a vysvětlují rozdíl mezi odhadem a pozorováním.",
+    "use": "Odhalení mylných představ a pochopení příčin.",
+    "example": "Co se stane s ledem položeným na kov a na dřevo?",
+    "steps": [
+      "Popište ukázku a nechte žáky zapsat odhad s odůvodněním.",
+      "Proveďte ukázku nebo ji pusťte ze záznamu a žáci zapíšou, co pozorovali.",
+      "Vysvětlete rozdíly mezi odhadem a pozorováním a společně doplňte vysvětlení."
+    ],
+    "minutes": 15,
+    "group": "class",
+    "materials": "Pomůcky k ukázce, papír",
+    "prompt": "Napište, co se podle vás stane a proč. Potom sledujte a zapište, co se opravdu stalo.",
+    "watch": "Zapsaný odhad je klíčový. Jinak si žáci později „pamatují“, že to věděli předem.",
+    "origin": "added"
+  },
+  {
+    "id": 81,
+    "phase": "U",
+    "name": "Výklad s pauzami",
+    "description": "Učitel vykládá v krátkých úsecích a po každém žáci krátce zpracují, co slyšeli.",
+    "use": "Udržení pozornosti u delšího výkladu a okamžitá kontrola porozumění.",
+    "example": "Sedm minut výkladu, dvě minuty: Řekni sousedovi tři nejdůležitější věci.",
+    "steps": [
+      "Rozdělte výklad na úseky po pěti až sedmi minutách.",
+      "Po každém úseku dejte dvě minuty na zpracování: shrnutí ve dvojici, otázka nebo zápis.",
+      "Po poslední pauze shrňte učivo a odpovězte na vzniklé otázky."
+    ],
+    "minutes": 20,
+    "group": "class",
+    "materials": "Podklady k výkladu",
+    "prompt": "Řekněte sousedovi dvě nejdůležitější věci z výkladu a jednu otázku, na kterou jste si nebyli jistí.",
+    "watch": "Pauzy nevynechávejte, ani když se výklad protahuje. Právě v nich se učivo upevňuje.",
+    "origin": "added"
+  },
+  {
+    "id": 82,
+    "phase": "U",
+    "name": "Časová osa",
+    "description": "Skupina seřadí události do správného pořadí a doplní příčiny a souvislosti.",
+    "use": "Chápání vývoje, posloupnosti a příčin v dějepise, přírodopise nebo literatuře.",
+    "example": "Seřaďte události první světové války a mezi ně napište příčiny.",
+    "steps": [
+      "Rozdejte kartičky s událostmi a pomůckami k určení pořadí.",
+      "Skupina karty seřadí na osu a mezi dvojice událostí připíše příčiny nebo důsledky.",
+      "Porovnejte osy skupin a vysvětlete rozdíly."
+    ],
+    "minutes": 20,
+    "group": "group",
+    "materials": "Kartičky s událostmi, lepicí páska",
+    "prompt": "Seřaďte události na časovou osu. Mezi události napište, co jednu způsobilo a co z ní plyne.",
+    "watch": "Použijte jen šest až deset událostí. Při větším počtu žáci uvíznou v řazení a nezbude čas na souvislosti.",
+    "origin": "added"
+  },
+  {
+    "id": 83,
+    "phase": "U",
+    "name": "Případová studie",
+    "description": "Skupiny rozebírají konkrétní situaci z praxe a navrhují řešení podle poznatků z hodiny.",
+    "use": "Použití učiva na realistický problém a rozvoj úsudku.",
+    "example": "Obec má v létě málo vody. Jaká opatření byste navrhli a proč?",
+    "steps": [
+      "Zadejte stručný popis případu s daty a otázkou.",
+      "Skupiny určí problém, zváží možnosti a vyberou doporučení s důvodem.",
+      "Skupiny krátce prezentují a třída porovná zdůvodnění."
+    ],
+    "minutes": 30,
+    "group": "group",
+    "materials": "Popis případu, papír",
+    "prompt": "Přečtěte si případ. Určete problém, navrhněte řešení a napište dva důvody, které vaše řešení podporují.",
+    "watch": "Vybírejte případ bez jedné jediné správné odpovědi. Cílem je zdůvodnění, ne výsledek.",
+    "origin": "added"
+  },
+  {
+    "id": 84,
+    "phase": "U",
+    "name": "Debata pro a proti",
+    "description": "Dvě skupiny hájí opačná stanoviska podle podkladů a pak si role vymění.",
+    "use": "Práce s argumenty, porozumění více pohledům a práce s důkazy.",
+    "example": "Mají být ve městech zakázána auta v centru?",
+    "steps": [
+      "Rozdělte třídu na dvě skupiny a dejte jim podklady pro a proti.",
+      "Skupiny připraví tři argumenty s důkazem a vedou krátkou debatu; každá strana smí odpovědět.",
+      "Vyměňte role a shrňte, které argumenty byly nejpřesvědčivější."
+    ],
+    "minutes": 25,
+    "group": "group",
+    "materials": "Podklady k tématu, časomíra",
+    "prompt": "Připravte tři argumenty pro své stanovisko a ke každému doplňte důkaz. Poslouchejte druhou stranu a reagujte věcně.",
+    "watch": "Stanovisko určete losem, ne podle přesvědčení žáka. Hlídejte věcnost a slušné vyjadřování.",
+    "origin": "added"
+  },
+  {
+    "id": 85,
+    "phase": "U",
+    "name": "Řešený příklad",
+    "description": "Žáci studují vzorově vyřešený příklad, popisují jeho kroky a pak řeší podobný sami.",
+    "use": "Osvojení postupu v matematice, fyzice, chemii nebo jazycích.",
+    "example": "Vzorový výpočet obsahu lichoběžníku s poznámkou u každého kroku.",
+    "steps": [
+      "Ukažte řešený příklad a nahlas komentujte, proč se dělá každý krok.",
+      "Ve dvojicích žáci vysvětlí kroky vlastními slovy a najdou místo, kde se snadno chybuje.",
+      "Zadejte podobný příklad a nechte ho vyřešit samostatně."
+    ],
+    "minutes": 15,
+    "group": "pairs",
+    "materials": "Řešený příklad a nový příklad",
+    "prompt": "Prohlédněte si vzorové řešení. U každého kroku napište, proč se dělá. Potom vyřešte podobný příklad sami.",
+    "watch": "V podobném příkladu změňte nejdřív jen čísla, ne postup. Obtížnost zvyšujte postupně.",
+    "origin": "added"
+  },
+  {
+    "id": 86,
+    "phase": "U",
+    "name": "Vizuální poznámky",
+    "description": "Žáci zapisují učivo kombinací slov, symbolů a jednoduchých obrázků.",
+    "use": "Upevnění učiva vlastním zpracováním a podpora žáků, kterým vyhovuje vizuální učení.",
+    "example": "Zápis o koloběhu vody s nakreslenými šipkami a třemi klíčovými slovy.",
+    "steps": [
+      "Ukažte vzorový zápis s nadpisem, klíčovými slovy, šipkami a symboly.",
+      "Při výkladu nebo čtení žáci zaznamenávají hlavní myšlenky slovy a obrázky.",
+      "Ve dvojicích si zápisy vzájemně vysvětlí."
+    ],
+    "minutes": 15,
+    "group": "alone",
+    "materials": "Papír, tužka, pastelky",
+    "prompt": "Zapište hlavní myšlenky tak, aby šly pochopit i bez dlouhého textu: používejte klíčová slova, šipky a jednoduché obrázky.",
+    "watch": "Neposuzujte kresbu, ale srozumitelnost. Úkolem je zachytit myšlenku, ne nakreslit hezký obrázek.",
+    "origin": "added"
+  },
+  {
+    "id": 87,
+    "phase": "R",
+    "name": "Dopis kamarádovi, který chyběl",
+    "description": "Žáci napíšou krátký dopis spolužákovi, který chyběl, a vysvětlí mu hlavní učivo hodiny.",
+    "use": "Ověření, co si žák z hodiny odnáší a zda dokáže učivo vysvětlit.",
+    "example": "Ahoj, dnes jsme se učili o… Nejdůležitější je, že… Dobře si to představ takhle…",
+    "steps": [
+      "Zadejte situaci a řekněte, co má dopis obsahovat.",
+      "Žáci píší pět minut.",
+      "Několik dopisů si vyberte ke kontrole porozumění nebo je nechte přečíst dobrovolníky."
+    ],
+    "minutes": 10,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Napište kamarádovi, který dnes chyběl, co jste se naučili. Vysvětlete to tak, aby tomu rozuměl, a přidejte jeden příklad.",
+    "watch": "Žáky nenuťte číst dopisy nahlas. Pro vás jsou cenné jako zpětná vazba.",
+    "origin": "added"
+  },
+  {
+    "id": 88,
+    "phase": "R",
+    "name": "Minikvíz na tabulkách",
+    "description": "Učitel klade krátké otázky a všichni žáci současně ukážou odpověď na malé tabulce nebo kartičce.",
+    "use": "Rychlé zjištění porozumění celé třídy.",
+    "example": "Otázka s možnostmi A, B, C: žáci zvednou kartičku s písmenem.",
+    "steps": [
+      "Připravte čtyři až šest otázek k hlavním bodům hodiny.",
+      "Po každé otázce žáci napíšou nebo vyberou odpověď a na signál ji ukážou.",
+      "Rychle vyhodnoťte, kde se odpovědi liší, a na místě vysvětlete."
+    ],
+    "minutes": 5,
+    "group": "class",
+    "materials": "Malé tabulky nebo kartičky A, B, C",
+    "prompt": "Napište odpověď na tabulku nebo zvedněte kartičku. Ukazujeme všichni najednou, až dám signál.",
+    "watch": "Odpovědi nechte ukazovat všechny naráz, aby žáci neopisovali. Chybu nekomentujte jmenovitě.",
+    "origin": "added"
+  },
+  {
+    "id": 89,
+    "phase": "R",
+    "name": "Otázka k testu",
+    "description": "Žáci vymyslí otázku, kterou by zařadili do testu z dnešního učiva, a zapíšou správnou odpověď.",
+    "use": "Zamyšlení nad podstatou učiva a příprava na opakování.",
+    "example": "Proč led plave na vodě? (Protože má menší hustotu.)",
+    "steps": [
+      "Vysvětlete, jak vypadá dobrá otázka: ne jen ano nebo ne.",
+      "Žáci napíšou na lístek otázku a odpověď.",
+      "Lístky promíchejte a použijte je na začátku příští hodiny."
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Lístek papíru",
+    "prompt": "Vymyslete otázku, kterou byste zařadili do testu z dnešní hodiny. Napište i správnou odpověď.",
+    "watch": "Dobrá otázka zkoumá porozumění, ne jen paměť. Ukažte příklad.",
+    "origin": "added"
+  },
+  {
+    "id": 90,
+    "phase": "R",
+    "name": "Co mi dnes pomáhalo učit se",
+    "description": "Žáci pojmenují, který způsob práce nebo která situace jim v hodině pomohly nejvíc.",
+    "use": "Poznání vlastního způsobu učení a zpětná vazba pro učitele.",
+    "example": "Pomohlo mi, že jsme si to nejdřív vysvětlili ve dvojici.",
+    "steps": [
+      "Připomeňte, co se v hodině dělo: výklad, dvojice, text, pokus.",
+      "Žáci napíšou, co jim pomohlo nejvíc, a proč.",
+      "Několik odpovědí sdílejte a využijte je při plánování další hodiny."
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Co vám dnes v hodině nejvíc pomohlo pochopit učivo? Napište to a doplňte proč.",
+    "watch": "Odpovědi neberte jako kritiku výuky. Slouží k tomu, abyste příště volili metody, které třídě sedí.",
+    "origin": "added"
   }
 ]
