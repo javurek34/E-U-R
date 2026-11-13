@@ -6,15 +6,15 @@ Veřejný web: https://javurek34.github.io/E-U-R/
 
 ## Co web umí
 
-- **Úvod**: hledání napříč všemi metodami, rychlý výběr, tři fáze hodiny a ukázková hodina.
-- **Metody** (`#metody`): karty všech metod s přepínáním fáze, hledáním bez ohledu na diakritiku a filtry podle času, formy práce a pomůcek. Filtry jsou součástí URL, např. `#metody?faze=U&cas=10&prace=pairs`.
-- **Detail** (`#metoda/38`): zadání pro žáky, postup, příklad, tipy, tisk a kopírování zadání.
-- **Promítání s odpočtem**: zadání přes celou obrazovku s časovačem a zvukovým signálem na konci.
-- **Moje hodina** (`#hodina`): jedna metoda pro každou fázi, součet času vůči 45 minutám, tisk plánu a sdílení odkazem (`#hodina?e=9&u=12&r=38`).
-- **Uložené** (`#ulozene`): oblíbené metody. Uložené metody, hodina i volba vzhledu se ukládají do localStorage v konkrétním prohlížeči.
-- Světlý i tmavý vzhled, rozložení pro telefon a tiskové styly.
+Učitel postupuje ve třech krocích a nic se nevypisuje najednou:
 
-Starší odkazy `#faze/E`, `#faze/U` a `#faze/R` dál fungují.
+1. **Fáze hodiny** (úvod): začátek hodiny (evokace), nové učivo (uvědomění si významu) nebo závěr hodiny (reflexe).
+2. **Upřesnění** (nepovinné): kolik má času a jak budou žáci pracovat. U každé volby je vidět počet vyhovujících metod a volby bez výsledku jsou zakázané, takže se nelze dostat do slepé uličky.
+3. **Návrhy**: tři metody najednou, tlačítko „Ukázat další návrhy“ a „Překvap mě“. Detail otevře zadání pro žáky, postup, příklad a tipy.
+
+Dále: hledání podle názvu (bez ohledu na diakritiku), uložené metody, kopírování zadání, tisk a promítnutí zadání přes celou obrazovku s odpočtem.
+
+Adresy: `#faze/U?cas=10&prace=pairs` (výběr), `#metoda/38` (detail), `#ulozene`, `#hledat?q=text`. Starší odkazy `#faze/E`, `#metody?faze=U` a `#metoda/<id>` dál fungují. Uložené metody se ukládají do localStorage v konkrétním prohlížeči.
 
 ## Spuštění
 
@@ -28,21 +28,21 @@ Otevřete http://localhost:8080. Web vyžaduje HTTP kvůli načtení `methods.js
 
 ## Obsah
 
-Knihovna obsahuje 65 metod:
+Knihovna obsahuje 90 metod:
 
-- 16 pro evokaci (10 z podkladů, 6 doplněných),
-- 15 pro uvědomění si významu (9 z podkladů, 6 doplněných),
-- 34 pro reflexi (30 z podkladů, 4 doplněné).
+- 25 pro evokaci (10 z podkladů, 15 doplněných),
+- 27 pro uvědomění si významu (9 z podkladů, 18 doplněných),
+- 38 pro reflexi (30 z podkladů, 8 doplněných).
 
-Základ tvoří tři dodané přehledy PDF v `dist/sources/`. Jejich zařazení metod je zachováno. Některé metody mohou sloužit ve více fázích. Popisy jsou redakčně zkrácené. Původ každé metody je uveden v rozbalovacím bloku detailu: metoda z PDF, nebo doplněná metoda.
+Základ tvoří tři dodané přehledy PDF v `dist/sources/`. Jejich zařazení metod je zachováno. Některé metody mohou sloužit ve více fázích. Popisy jsou redakčně zkrácené. Původ každé metody je uveden v detailu: metoda z PDF, nebo doplněná metoda.
 
-Čas, organizace práce, pomůcky, přímé zadání pro žáky, kroky a metodické tipy jsou návrhy pro praxi, nikoli přímé citace zdrojů. Časové údaje jsou orientační. U původních metod reflexe jsou doplněné také příklady a využití, které PDF obsahovalo jen nepřímo.
+Čas, organizace práce, pomůcky, přímé zadání pro žáky, kroky a metodické tipy jsou návrhy pro praxi, nikoli přímé citace zdrojů. Časové údaje jsou orientační.
 
 ## Úpravy
 
 - `dist/index.html`: kostra stránky (hlavička, patička, okno promítání). Obsah pohledů vykresluje `app.js`.
-- `dist/style.css`: vzhled, barvy fází, tmavý režim, responzivní a tiskové styly.
-- `dist/app.js`: směrování, seznam a filtry, detail, plánovač hodiny, promítání s odpočtem, ukládání.
+- `dist/style.css`: vzhled, barvy fází, responzivní a tiskové styly.
+- `dist/app.js`: směrování, výběr metody po krocích, detail, hledání, promítání s odpočtem, ukládání.
 - `dist/fonts/`: písma Bricolage Grotesque a Figtree (licence SIL OFL, přiložena). Web nenačítá nic z cizích serverů.
 - `dist/methods.json`: obsah. Při přidávání zachovejte jedinečné `id`; hodnoty `phase` jsou `E`, `U`, `R`, hodnoty `group` jsou `alone`, `pairs`, `group`, `class`. Pole `origin` rozlišuje `pdf` a `added`. Původní `id` neměňte kvůli uloženým metodám a sdíleným odkazům.
 

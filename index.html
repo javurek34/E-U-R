@@ -3,63 +3,35 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#fbf6ee">
-<meta name="description" content="65 výukových metod pro evokaci, uvědomění si významu a reflexi. Zadání pro žáky, postup pro učitele a plánovač celé hodiny podle modelu E–U–R.">
+<meta name="theme-color" content="#f3efe6">
+<meta name="description" content="Vyberte výukovou metodu do své hodiny. Řeknete, jakou část hodiny připravujete, a dostanete hotové zadání pro žáky i postup. Evokace, uvědomění si významu a reflexe.">
 <title>Metody do výuky | E–U–R</title>
-<script>try{var t=localStorage.getItem('eur-theme');if(t==='dark'||t==='light')document.documentElement.dataset.theme=t}catch(e){}</script>
-<link rel="stylesheet" href="dist/style.css?v=2">
-<script src="dist/app.js?v=2" defer></script>
+<link rel="stylesheet" href="dist/style.css?v=3">
+<script src="dist/app.js?v=3" defer></script>
 </head>
 <body>
 <a class="skip" href="#obsah">Přejít na obsah</a>
 
-<header class="site-header">
-  <div class="shell header-inner">
-    <a href="#" class="logo" aria-label="E–U–R, metody do výuky: úvodní stránka">
-      <span class="logo-tiles" aria-hidden="true"><i data-phase="E">E</i><i data-phase="U">U</i><i data-phase="R">R</i></span>
-      <span class="logo-text">Metody do výuky</span>
-    </a>
-    <nav class="main-nav" aria-label="Hlavní navigace">
-      <a href="#metody" data-nav="metody">
-        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="7" height="7" rx="2"/><rect x="13.5" y="3.5" width="7" height="7" rx="2"/><rect x="3.5" y="13.5" width="7" height="7" rx="2"/><rect x="13.5" y="13.5" width="7" height="7" rx="2"/></svg>
-        <span>Metody</span>
-      </a>
-      <a href="#hodina" data-nav="hodina">
-        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3.5v3M16 3.5v3M4 9.5h16"/><rect x="4" y="5" width="16" height="15.5" rx="3"/><path d="m9 15 2 2 4-4"/></svg>
-        <span class="label-long">Moje hodina</span><span class="label-short">Hodina</span><b id="plan-count" class="badge" hidden></b>
-      </a>
-      <a href="#ulozene" data-nav="ulozene">
-        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20.5s-7.5-4.6-7.5-10.2A4.3 4.3 0 0 1 12 7.6a4.3 4.3 0 0 1 7.5 2.7c0 5.600-7.500 10.200-7.500 10.200Z"/></svg>
-        <span>Uložené</span><b id="saved-count" class="badge" hidden></b>
-      </a>
-      <button id="theme-toggle" type="button" class="icon-button" aria-label="Přepnout světlý a tmavý vzhled">
-        <svg class="icon theme-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.500A8 8 0 0 1 9.500 4a8 8 0 1 0 10.500 10.500Z"/></svg>
-        <svg class="icon theme-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.500v2.500M12 19v2.500M2.500 12H5M19 12h2.500M5.300 5.300l1.800 1.800M16.900 16.900l1.800 1.800M5.300 18.700l1.800-1.800M16.900 7.100l1.800-1.800"/></svg>
-      </button>
-    </nav>
+<header class="top">
+  <div class="wrap top-row">
+    <a href="#" class="brand" aria-label="E–U–R, metody do výuky: úvodní stránka">E–U–R <span>metody do výuky</span></a>
+    <a href="#ulozene" class="saved">Uložené <b id="saved-count">0</b></a>
   </div>
 </header>
 
 <main id="obsah" tabindex="-1">
-  <div id="app" class="shell">
-    <p class="loading">Načítám metody…</p>
-  </div>
-  <noscript><p class="shell notice">Pro výběr metod zapněte JavaScript. Podklady v PDF najdete v patičce stránky.</p></noscript>
+  <div id="app" class="wrap"><p class="loading">Načítám metody…</p></div>
+  <noscript><p class="wrap notice">Pro výběr metod zapněte JavaScript. Podklady v PDF najdete v patičce stránky.</p></noscript>
 </main>
 
-<footer class="site-footer">
-  <div class="shell footer-inner">
-    <div class="footer-about">
-      <span class="logo-tiles" aria-hidden="true"><i data-phase="E">E</i><i data-phase="U">U</i><i data-phase="R">R</i></span>
-      <p>Průvodce výběrem výukových metod podle třífázového modelu učení. Základem je 49 metod ze tří dodaných přehledů, dalších 16 je doplněných a označených v detailu. Časy, zadání a tipy jsou návrhy pro praxi.</p>
-    </div>
-    <div class="footer-links">
-      <h2>Podklady v PDF</h2>
+<footer class="foot">
+  <div class="wrap foot-row">
+    <p id="foot-text">Metody pro přípravu vyučovací hodiny podle modelu E–U–R. Časy, zadání a tipy jsou návrhy pro praxi.</p>
+    <p class="foot-links"><span>Podklady v PDF:</span>
       <a href="dist/sources/evokace.pdf" target="_blank" rel="noopener">Evokace</a>
-      <a href="dist/sources/uvedomeni.pdf" target="_blank" rel="noopener">Uvědomění si významu</a>
+      <a href="dist/sources/uvedomeni.pdf" target="_blank" rel="noopener">Uvědomění</a>
       <a href="dist/sources/reflexe.pdf" target="_blank" rel="noopener">Reflexe</a>
-    </div>
+    </p>
   </div>
 </footer>
 
@@ -70,7 +42,7 @@
     <p id="stage-title" class="stage-title"></p>
     <div class="stage-top-actions">
       <button id="stage-full" type="button" class="stage-button">Celá obrazovka</button>
-      <button id="stage-close" type="button" class="stage-button">Zavřít <kbd>Esc</kbd></button>
+      <button id="stage-close" type="button" class="stage-button">Zavřít (Esc)</button>
     </div>
   </div>
   <p id="stage-prompt" class="stage-prompt"></p>
