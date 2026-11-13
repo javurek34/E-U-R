@@ -1,0 +1,639 @@
+[
+  {
+    "id": 1,
+    "phase": "E",
+    "name": "Brainstorming",
+    "description": "Rychlé generování nápadů bez hodnocení.",
+    "use": "Aktivace předchozích znalostí, otevření tématu a sběr asociací.",
+    "example": "Co všechno vás napadne, když se řekne revoluce?",
+    "steps": [
+      "Položte otevřenou otázku.",
+      "Zapisujte všechny nápady bez posuzování.",
+      "Společně hledejte souvislosti a otázky pro další učení."
+    ]
+  },
+  {
+    "id": 2,
+    "phase": "E",
+    "name": "Myšlenková mapa",
+    "description": "Grafické zaznamenávání souvislostí kolem tématu.",
+    "use": "Třídění znalostí, hledání vztahů a opakování učiva.",
+    "example": "Doprostřed napište Voda. Doplňujte vlastnosti, využití a skupenství.",
+    "steps": [
+      "Zapište ústřední téma.",
+      "Přidávejte větve s pojmy a vztahy.",
+      "Mapu uchovejte pro závěrečnou reflexi."
+    ]
+  },
+  {
+    "id": 3,
+    "phase": "E",
+    "name": "Pětilístek",
+    "description": "Krátká strukturovaná práce s pojmem.",
+    "use": "Rozvoj slovní zásoby, zachycení vstupního porozumění a shrnutí tématu.",
+    "example": "Svoboda / důležitá, křehká / chrání, spojuje, inspiruje / lidé ji často podceňují / hodnota.",
+    "steps": [
+      "Napište téma jedním slovem.",
+      "Doplňte dvě přídavná jména a tři slovesa.",
+      "Přidejte větu o čtyřech slovech a závěrečné shrnující slovo."
+    ]
+  },
+  {
+    "id": 4,
+    "phase": "E",
+    "name": "Klíčová slova",
+    "description": "Práce s několika pojmy před učením.",
+    "use": "Odhad obsahu, aktivace logického myšlení a propojení znalostí.",
+    "example": "Atom – elektron – energie – jádro.",
+    "steps": [
+      "Předložte několik klíčových slov.",
+      "Nechte žáky odhadnout jejich vztahy a téma.",
+      "Po práci s učivem se k odhadům vraťte."
+    ]
+  },
+  {
+    "id": 5,
+    "phase": "E",
+    "name": "Předvídání z obrázku",
+    "description": "Žáci interpretují obrázek a vytvářejí hypotézy.",
+    "use": "Rozvoj představivosti, interpretace a motivace.",
+    "example": "Fotografie továrny v kouři: Jaké problémy může způsobit průmysl?",
+    "steps": [
+      "Ukažte obrázek související s tématem.",
+      "Oddělte pozorování od domněnek.",
+      "Zapište hypotézy, které budete ověřovat."
+    ]
+  },
+  {
+    "id": 6,
+    "phase": "E",
+    "name": "V-CH-D",
+    "description": "Tabulka mapující znalosti a otázky.",
+    "use": "Sledování pokroku, formulace otázek a aktivní učení.",
+    "example": "Sopky: Vím – chrlí lávu. Chci vědět – proč vybuchují?",
+    "steps": [
+      "Vytvořte sloupce Vím, Chci vědět, Dozvěděl/a jsem se.",
+      "Na začátku vyplňte první dva sloupce.",
+      "Poslední sloupec doplňte po učení."
+    ]
+  },
+  {
+    "id": 7,
+    "phase": "E",
+    "name": "Ano/Ne roh třídy",
+    "description": "Pohybová metoda vyjadřující postoj.",
+    "use": "Aktivace celé skupiny, argumentace a diskuse.",
+    "example": "Měly by být domácí úkoly povinné?",
+    "steps": [
+      "Určete místa pro ano a ne; umožněte i nejistotu.",
+      "Přečtěte tvrzení a nechte žáky vybrat stanovisko.",
+      "Vyzvěte k argumentaci a umožněte změnu názoru."
+    ]
+  },
+  {
+    "id": 8,
+    "phase": "E",
+    "name": "Řazení pojmů",
+    "description": "Třídění nebo uspořádání informací.",
+    "use": "Hledání logiky, opakování a práce se souvislostmi.",
+    "example": "Seřaď historické události podle času.",
+    "steps": [
+      "Připravte kartičky s pojmy.",
+      "Zadejte kritérium řazení nebo třídění.",
+      "Nechte žáky zdůvodnit řešení a označit nejistoty."
+    ]
+  },
+  {
+    "id": 9,
+    "phase": "E",
+    "name": "Volné psaní",
+    "description": "Nepřerušované psaní myšlenek.",
+    "use": "Aktivace myšlení, formulace názorů a překonání obav z psaní.",
+    "example": "Piš dvě minuty vše, co tě napadne o demokracii.",
+    "steps": [
+      "Zadejte téma a krátký čas.",
+      "Žáci píší bez zastavování a opravování.",
+      "Nabídněte dobrovolné sdílení vybrané myšlenky."
+    ]
+  },
+  {
+    "id": 10,
+    "phase": "E",
+    "name": "Otázky před učením",
+    "description": "Žáci formulují otázky k tématu.",
+    "use": "Zvýšení zvědavosti a aktivní práce během hodiny.",
+    "example": "Co byste chtěli zjistit o lidském mozku?",
+    "steps": [
+      "Představte téma.",
+      "Nechte každého napsat vlastní otázku.",
+      "Otázky seskupte a při učení hledejte odpovědi."
+    ]
+  },
+  {
+    "id": 11,
+    "phase": "U",
+    "name": "Skládankové učení",
+    "description": "Každý žák nebo skupina zpracovává jinou část tématu a předává poznatky ostatním. Každý se stává expertem a odpovídá za srozumitelné vysvětlení své části.",
+    "use": "Spolupráce, odpovědnost, aktivní učení a komunikace.",
+    "example": "Každá expertní skupina zkoumá jiný orgán lidského těla.",
+    "steps": [
+      "Rozdělte téma mezi expertní skupiny.",
+      "Nechte experty připravit vysvětlení.",
+      "Vytvořte smíšené skupiny, kde si žáci předají poznatky a ověří porozumění."
+    ]
+  },
+  {
+    "id": 12,
+    "phase": "U",
+    "name": "Čtení s otázkami",
+    "description": "Žáci pracují s textem po menších částech a průběžně odpovídají na otázky k hlavní myšlence, vztahům i vlastní interpretaci.",
+    "use": "Porozumění textu a kritické čtení bez mechanického opisování.",
+    "example": "Po každém odstavci: Co bylo hlavní myšlenkou?",
+    "steps": [
+      "Rozdělte text do kratších úseků.",
+      "Ke každému připojte otázku na porozumění.",
+      "Odpovědi podložte konkrétní informací z textu."
+    ]
+  },
+  {
+    "id": 13,
+    "phase": "U",
+    "name": "INSERT",
+    "description": "Při aktivním čtení žáci označují známé, nové a nejasné informace. Průběžně tak sledují vlastní porozumění.",
+    "use": "Aktivní čtení, orientace v textu a reflexe porozumění.",
+    "example": "✓ znám · + nové · ? nerozumím.",
+    "steps": [
+      "Domluvte význam značek.",
+      "Žáci při čtení označují informace.",
+      "Sdílejte nové poznatky a společně vyjasněte otazníky."
+    ]
+  },
+  {
+    "id": 14,
+    "phase": "U",
+    "name": "Badatelská výuka",
+    "description": "Žáci objevují poznatky vlastním zkoumáním, formulováním hypotéz a hledáním odpovědí. Učitel je průvodcem objevování.",
+    "use": "Samostatnost, experimentování a kritické myšlení.",
+    "example": "Který materiál nejlépe izoluje teplo?",
+    "steps": [
+      "Formulujte badatelskou otázku a hypotézy.",
+      "Naplánujte bezpečné zkoumání a záznam výsledků.",
+      "Porovnejte zjištění s hypotézou a formulujte závěr."
+    ]
+  },
+  {
+    "id": 15,
+    "phase": "U",
+    "name": "Pokus / experiment",
+    "description": "Praktické ověřování hypotéz nebo pozorování jevů. Žáci sledují průběh, zaznamenávají výsledky a vyvozují závěry.",
+    "use": "Názornost a propojení teorie s praxí.",
+    "example": "Měření rychlosti tání ledu v různých podmínkách.",
+    "steps": [
+      "Stanovte otázku, podmínky a bezpečnostní pravidla.",
+      "Proveďte pokus a zaznamenejte pozorování.",
+      "Vyvoďte závěr a pojmenujte omezení měření."
+    ]
+  },
+  {
+    "id": 16,
+    "phase": "U",
+    "name": "Práce s chybou",
+    "description": "Žáci analyzují nesprávné řešení a hledají, kde a proč chyba vznikla. Chybu vnímají jako součást učení.",
+    "use": "Hlubší porozumění a odstranění miskoncepcí.",
+    "example": "Žáci hledají chybu ve špatně vypočítaném příkladu.",
+    "steps": [
+      "Předložte anonymní chybné řešení.",
+      "Nechte žáky vysvětlit příčinu chyby.",
+      "Společně opravte postup a ověřte jej na dalším příkladu."
+    ]
+  },
+  {
+    "id": 17,
+    "phase": "U",
+    "name": "Porovnávání zdrojů",
+    "description": "Žáci porovnávají obsah a důvěryhodnost více zdrojů i různé pohledy na stejnou problematiku.",
+    "use": "Mediální gramotnost, ověřování informací a kritické myšlení.",
+    "example": "Porovnání dvou článků o stejné události.",
+    "steps": [
+      "Vyberte dva zdroje ke stejnému tématu.",
+      "Porovnejte tvrzení, důkazy, autorství a kontext.",
+      "Oddělte shody, rozdíly a neověřené informace."
+    ]
+  },
+  {
+    "id": 18,
+    "phase": "U",
+    "name": "Modelové situace",
+    "description": "Žáci řeší simulované situace z reálného života. Spolupracují, rozhodují se a hledají vhodná řešení.",
+    "use": "Rozhodování, argumentace a sociální dovednosti.",
+    "example": "Jste krizový štáb při povodni.",
+    "steps": [
+      "Představte situaci, role a omezení.",
+      "Nechte skupiny navrhnout a zdůvodnit řešení.",
+      "Rozeberte důsledky rozhodnutí a propojte je s učivem."
+    ]
+  },
+  {
+    "id": 19,
+    "phase": "U",
+    "name": "Dramatizace",
+    "description": "Žáci převádějí učivo do scénky nebo hraní rolí. Prožitek pomáhá porozumět vztahům, emocím a událostem.",
+    "use": "Prožitek, empatie a zapamatování.",
+    "example": "Sehrání soudního procesu s historickou postavou.",
+    "steps": [
+      "Rozdělte role a připravte podklady.",
+      "Odehrajte krátkou scénu.",
+      "Vystupte z rolí a reflektujte souvislosti s tématem."
+    ]
+  },
+  {
+    "id": 20,
+    "phase": "R",
+    "name": "Most: před hodinou – po hodině",
+    "description": "Porovnání znalostí a postojů před výukou a po ní pomáhá uvědomit si vlastní posun.",
+    "use": "Porovnávání porozumění a sledování pokroku.",
+    "example": "Na začátku jsem věděl/a… Nyní dokážu vysvětlit…",
+    "steps": [
+      "Vraťte žákům jejich úvodní zápis.",
+      "Nechte je popsat konkrétní změnu.",
+      "Doplňte důkaz nebo příklad nového porozumění."
+    ]
+  },
+  {
+    "id": 21,
+    "phase": "R",
+    "name": "Nedokončené věty",
+    "description": "Žáci dokončují připravené věty o učení, emocích nebo strategiích práce. Opora pomáhá začít formulovat reflexi.",
+    "use": "Pojmenování učení a vlastní strategie.",
+    "example": "Dnes mi pomohlo… Příště zkusím…",
+    "steps": [
+      "Připravte dvě až tři větné opory.",
+      "Dejte čas na samostatné doplnění.",
+      "Sdílejte dobrovolně a využijte odpovědi pro další výuku."
+    ]
+  },
+  {
+    "id": 22,
+    "phase": "R",
+    "name": "Plus – minus – zajímavé",
+    "description": "Žáci pojmenovávají, co bylo přínosné, obtížné a zajímavé.",
+    "use": "Kritické myšlení a různé pohledy na učení.",
+    "example": "Plus: rozumím postupu. Minus: obtížné zadání. Zajímavé: jiné řešení.",
+    "steps": [
+      "Připravte tři sloupce.",
+      "Nechte žáky zapsat konkrétní postřehy.",
+      "Z obtíží vyberte podnět k dalšímu kroku."
+    ]
+  },
+  {
+    "id": 23,
+    "phase": "R",
+    "name": "Umím – potřebuji – pomohu",
+    "description": "Žáci určují, co zvládají, s čím potřebují pomoc a v čem mohou podpořit ostatní.",
+    "use": "Sebehodnocení a vzájemná podpora.",
+    "example": "Umím sestavit graf. Potřebuji pomoci s měřítkem. Pomohu s popisky.",
+    "steps": [
+      "Nabídněte tři větné začátky.",
+      "Nechte žáky doplnit konkrétní dovednosti.",
+      "Propojte nabídky pomoci s potřebami spolužáků."
+    ]
+  },
+  {
+    "id": 24,
+    "phase": "R",
+    "name": "Otázka pro spolužáka",
+    "description": "Žáci vytvářejí otázku k probíranému tématu pro jiného žáka.",
+    "use": "Formulace otázek a ověřování porozumění.",
+    "example": "Jak bys vysvětlil/a, proč se střídají roční období?",
+    "steps": [
+      "Každý připraví otázku k cíli hodiny.",
+      "Ve dvojici si otázky vyměňte.",
+      "Porovnejte odpovědi a vyjasněte nejasnosti."
+    ]
+  },
+  {
+    "id": 25,
+    "phase": "R",
+    "name": "Dokonči myšlenkovou mapu",
+    "description": "Žáci doplňují nové pojmy, vztahy a souvislosti do mapy ze začátku hodiny. Vidí tak svůj pokrok.",
+    "use": "Vizualizace pokroku a propojování poznatků.",
+    "example": "Nové souvislosti do mapy Voda vyznačte jinou barvou.",
+    "steps": [
+      "Vraťte se k původní mapě.",
+      "Doplňte a případně opravte vztahy jinou barvou.",
+      "Nechte žáky vysvětlit jednu důležitou změnu."
+    ]
+  },
+  {
+    "id": 26,
+    "phase": "R",
+    "name": "Jedno slovo + proč",
+    "description": "Žáci shrnou hodinu jedním slovem a vysvětlí svůj výběr.",
+    "use": "Stručné shrnutí, pojmenování dojmů a porozumění.",
+    "example": "Souvislosti – protože jsem propojil/a příčiny a následky.",
+    "steps": [
+      "Požádejte o jedno slovo.",
+      "Přidejte zdůvodnění vztahující se k učení.",
+      "Vyberte několik dobrovolných sdílení."
+    ]
+  },
+  {
+    "id": 27,
+    "phase": "R",
+    "name": "Reflexní kruh",
+    "description": "Žáci v kruhu sdílejí poznatky, myšlenky a pocity. Důležitá je bezpečná atmosféra a respekt.",
+    "use": "Naslouchání a společná reflexe.",
+    "example": "Co mi dnes nejvíc pomohlo porozumět tématu?",
+    "steps": [
+      "Domluvte pravidla a možnost vynechat odpověď.",
+      "Položte jednu konkrétní otázku.",
+      "Postupně sdílejte bez hodnocení ostatních."
+    ]
+  },
+  {
+    "id": 28,
+    "phase": "R",
+    "name": "Reflexe skupinové práce",
+    "description": "Žáci hodnotí fungování skupiny, vlastní roli a přínos ostatních.",
+    "use": "Spolupráce, komunikace a odpovědnost.",
+    "example": "Čím jsem přispěl/a a co příště uděláme jinak?",
+    "steps": [
+      "Vraťte se ke společnému cíli.",
+      "Pojmenujte konkrétní příspěvky i překážky.",
+      "Dohodněte jednu změnu pro příští spolupráci."
+    ]
+  },
+  {
+    "id": 29,
+    "phase": "R",
+    "name": "Tři dveře",
+    "description": "Žáci si vybírají symbolické dveře podle aktuálního pocitu nebo porozumění.",
+    "use": "Rychlá diferencovaná reflexe.",
+    "example": "Dveře: vysvětlím samostatně / potřebuji procvičit / potřebuji pomoc.",
+    "steps": [
+      "Předem vysvětlete význam tří dveří.",
+      "Žáci zvolí dveře a krátce zdůvodní volbu.",
+      "Podle odpovědí nabídněte vhodnou podporu."
+    ]
+  },
+  {
+    "id": 30,
+    "phase": "R",
+    "name": "Co bych poradil/a sobě na začátku hodiny?",
+    "description": "Žáci se ohlížejí za učením a formulují radu sami sobě.",
+    "use": "Metakognice a uvědomění vlastních strategií.",
+    "example": "Nejdřív si nakresli náčrt a teprve potom počítej.",
+    "steps": [
+      "Připomeňte začátek práce.",
+      "Nechte každého napsat konkrétní radu.",
+      "Zvažte, kde půjde radu příště využít."
+    ]
+  },
+  {
+    "id": 31,
+    "phase": "R",
+    "name": "Tichá diskuse",
+    "description": "Písemná reflexe bez mluvení: žáci reagují na otázky i komentáře spolužáků.",
+    "use": "Zapojení klidnějších žáků a hlubší promýšlení.",
+    "example": "Na plakátu: Který důkaz tě přesvědčil a proč?",
+    "steps": [
+      "Rozmístěte otázky na papírech.",
+      "Žáci tiše zapisují odpovědi a navazují na ostatní.",
+      "Na závěr shrňte hlavní myšlenky."
+    ]
+  },
+  {
+    "id": 32,
+    "phase": "R",
+    "name": "Aha moment",
+    "description": "Žáci pojmenují okamžik, kdy pochopili důležitou souvislost.",
+    "use": "Uvědomění procesu učení.",
+    "example": "Došlo mi, že odpařování probíhá i bez varu.",
+    "steps": [
+      "Dejte čas vybavit si okamžik pochopení.",
+      "Nechte žáky popsat, co pochopili a co pomohlo.",
+      "Nabídněte dobrovolné sdílení."
+    ]
+  },
+  {
+    "id": 33,
+    "phase": "R",
+    "name": "Ještě mi vrtá hlavou…",
+    "description": "Žáci formulují nejasnosti, otázky a témata, která zůstávají otevřená.",
+    "use": "Plánování dalšího učení.",
+    "example": "Proč mají různé materiály jinou vodivost?",
+    "steps": [
+      "Každý zapíše jednu otevřenou otázku.",
+      "Otázky seskupte podle témat.",
+      "Určete, ke kterým se vrátíte příště."
+    ]
+  },
+  {
+    "id": 34,
+    "phase": "R",
+    "name": "Mysli – sdílej – zapiš",
+    "description": "Reflexe ve třech krocích: samostatné přemýšlení, sdílení ve dvojici a písemné shrnutí.",
+    "use": "Aktivní zapojení všech žáků.",
+    "example": "Co bylo dnes nejdůležitější a jak to souvisí s tím, co už víš?",
+    "steps": [
+      "Nechte každého samostatně přemýšlet.",
+      "Ve dvojici sdílejte myšlenky.",
+      "Každý zapíše vlastní závěrečné shrnutí."
+    ]
+  },
+  {
+    "id": 35,
+    "phase": "R",
+    "name": "Dvě hvězdy a jedno přání",
+    "description": "Vrstevnická zpětná vazba vyzdvihuje dvě silné stránky a jedno doporučení ke zlepšení.",
+    "use": "Konkrétní a podporující zpětná vazba.",
+    "example": "Dva srozumitelné argumenty a návrh doplnit důkaz.",
+    "steps": [
+      "Připomeňte kritéria kvalitní práce.",
+      "Žáci uvedou dvě konkrétní silné stránky.",
+      "Připojí jedno proveditelné doporučení."
+    ]
+  },
+  {
+    "id": 36,
+    "phase": "R",
+    "name": "Dřív jsem si myslel/a…, teď si myslím…",
+    "description": "Porovnání původní představy s pohledem po výuce ukazuje změnu myšlení a pomáhá opravovat miskoncepce.",
+    "use": "Reflexe změny názoru a porozumění.",
+    "example": "Dřív jsem si myslel/a, že rostliny získávají potravu z půdy. Teď…",
+    "steps": [
+      "Vraťte se k původním představám.",
+      "Doplňte obě části věty.",
+      "Přidejte důkaz nebo zkušenost, která změnu podpořila."
+    ]
+  },
+  {
+    "id": 37,
+    "phase": "R",
+    "name": "3–2–1",
+    "description": "Žáci zapisují tři nové informace, dvě zajímavosti a jednu otázku.",
+    "use": "Výběr podstatných informací a otevření dalších otázek.",
+    "example": "3 poznatky o vesmíru, 2 zajímavosti, 1 otázka.",
+    "steps": [
+      "Představte strukturu 3–2–1.",
+      "Dejte čas na samostatný zápis.",
+      "Využijte otázky pro navazující výuku."
+    ]
+  },
+  {
+    "id": 38,
+    "phase": "R",
+    "name": "Výstupní lístek",
+    "description": "Krátká písemná reflexe odevzdávaná při odchodu poskytuje zpětnou vazbu o porozumění a nejasnostech.",
+    "use": "Rychlé ověření porozumění téměř v každém předmětu.",
+    "example": "Vysvětli jednu příčinu jevu a napiš, čemu ještě nerozumíš.",
+    "steps": [
+      "Položte krátkou otázku navázanou na cíl hodiny.",
+      "Žáci samostatně odpovědí.",
+      "Odpovědi využijte při přípravě další hodiny."
+    ]
+  },
+  {
+    "id": 39,
+    "phase": "R",
+    "name": "Jedna věta na závěr",
+    "description": "Žáci formulují hlavní myšlenku hodiny jednou větou.",
+    "use": "Stručné vyjádření podstatných informací.",
+    "example": "Dnešní hlavní myšlenka je…",
+    "steps": [
+      "Požádejte o jednu větu k hlavnímu poznatku.",
+      "Dejte prostor vlastní formulaci.",
+      "Porovnejte, které důležité souvislosti věty zachycují."
+    ]
+  },
+  {
+    "id": 40,
+    "phase": "R",
+    "name": "Semafor porozumění",
+    "description": "Žáci vyjadřují porozumění barvami semaforu. Učitel zjišťuje potřebu další podpory.",
+    "use": "Rychlé sebehodnocení a plánování podpory.",
+    "example": "Zelená: vysvětlím. Oranžová: potřebuji procvičit. Červená: potřebuji pomoc.",
+    "steps": [
+      "Vysvětlete význam barev i slovně.",
+      "Žáci zvolí barvu a doplní konkrétní důvod.",
+      "Ověřte porozumění drobným úkolem a nabídněte podporu."
+    ]
+  },
+  {
+    "id": 41,
+    "phase": "R",
+    "name": "Teploměr jistoty",
+    "description": "Žáci vyjadřují míru jistoty na škále nebo pomyslném teploměru.",
+    "use": "Práce s nejistotou a realistické sebehodnocení.",
+    "example": "Jak jistě dokážeš vysvětlit postup? Co by ti pomohlo o stupeň výš?",
+    "steps": [
+      "Stanovte srozumitelnou škálu.",
+      "Každý vyznačí jistotu a zdůvodní ji.",
+      "Pojmenujte další malý krok."
+    ]
+  },
+  {
+    "id": 42,
+    "phase": "R",
+    "name": "Palec – pěst – dlaň",
+    "description": "Rychlá neverbální reflexe pomocí předem domluvených gest ruky.",
+    "use": "Rychlý přehled o porozumění a atmosféře.",
+    "example": "Domluvte si gesto pro rozumím, váhám a potřebuji pomoc.",
+    "steps": [
+      "Jasně dohodněte význam každého gesta.",
+      "Položte konkrétní otázku na porozumění.",
+      "Reagujte na potřeby a umožněte soukromé sdělení."
+    ]
+  },
+  {
+    "id": 43,
+    "phase": "R",
+    "name": "Galerie učení",
+    "description": "Žáci si prohlížejí práce ostatních a zapisují postřehy, inspirace a otázky.",
+    "use": "Sdílení různých přístupů a vrstevnická reflexe.",
+    "example": "U každého plakátu zapiš jednu inspiraci a jednu otázku.",
+    "steps": [
+      "Rozmístěte žákovské práce.",
+      "Domluvte kritéria a pravidla komentářů.",
+      "Po prohlídce se vraťte k vlastní práci a zvolte úpravu."
+    ]
+  },
+  {
+    "id": 44,
+    "phase": "R",
+    "name": "Reflexe přes škálu",
+    "description": "Žáci vyjadřují porozumění, jistotu nebo spokojenost pomocí číselné škály.",
+    "use": "Rozpoznání rozdílných potřeb žáků.",
+    "example": "Na škále 1–5: Jak samostatně zvládneš tento typ úlohy?",
+    "steps": [
+      "Určete, co znamenají krajní body škály.",
+      "Žáci zvolí hodnotu a připojí příklad.",
+      "Zeptejte se, co pomůže k dalšímu kroku."
+    ]
+  },
+  {
+    "id": 45,
+    "phase": "R",
+    "name": "Kompas reflexe",
+    "description": "Symbolické směry kompasu představují různé otázky a pohledy na učení.",
+    "use": "Hlubší a komplexnější reflexe.",
+    "example": "Čtyři směry: co vím, co mě zaujalo, co je nejasné, kam chci pokračovat.",
+    "steps": [
+      "Přiřaďte čtyřem směrům konkrétní otázky.",
+      "Nechte žáky odpovědět v jednotlivých směrech.",
+      "Vyberte další krok podle odpovědí."
+    ]
+  },
+  {
+    "id": 46,
+    "phase": "R",
+    "name": "Reflexní kostka",
+    "description": "Kostka obsahuje různé reflektivní otázky nebo úkoly. Hod určí podnět k odpovědi.",
+    "use": "Hravé ohlédnutí za učením.",
+    "example": "Co ses naučil/a? Co pomohlo? Co zkusíš příště?",
+    "steps": [
+      "Připravte šest otázek na kostku.",
+      "Žáci házejí a odpovídají na vylosovanou otázku.",
+      "Umožněte jinou otázku, pokud se nehodí."
+    ]
+  },
+  {
+    "id": 47,
+    "phase": "R",
+    "name": "Kdybych to měl/a vysvětlit…",
+    "description": "Žáci převádějí poznatky do jednoduchého vysvětlení pro mladšího žáka nebo laika.",
+    "use": "Ověření skutečného porozumění.",
+    "example": "Vysvětli mladšímu spolužákovi, jak vzniká déšť.",
+    "steps": [
+      "Určete, komu má vysvětlení sloužit.",
+      "Žáci formulují vysvětlení vlastními slovy a příkladem.",
+      "Posluchač položí doplňující otázku."
+    ]
+  },
+  {
+    "id": 48,
+    "phase": "R",
+    "name": "Chyba, která mě posunula",
+    "description": "Žáci reflektují vlastní chybu a to, co jim pomohla pochopit.",
+    "use": "Růstové nastavení a bezpečný vztah k chybě.",
+    "example": "Chybně jsem zaměnil/a obvod a obsah. Pomohl mi náčrt.",
+    "steps": [
+      "Nabídněte bezpečnou volbu příkladu chyby.",
+      "Žáci popíší, co se díky ní naučili.",
+      "Zformulují postup, který příště pomůže."
+    ]
+  },
+  {
+    "id": 49,
+    "phase": "R",
+    "name": "Žebřík pokroku",
+    "description": "Žáci zakreslují nebo popisují, kde se v učení nacházejí a kam chtějí pokračovat.",
+    "use": "Vizualizace pokroku a plánování dalších kroků.",
+    "example": "Poznám pojem → vysvětlím jej → použiji jej v nové situaci.",
+    "steps": [
+      "Popište stupně pomocí konkrétních dovedností.",
+      "Žáci vyznačí svůj stupeň a doloží jej příkladem.",
+      "Zvolí nejbližší dosažitelný krok."
+    ]
+  }
+]
