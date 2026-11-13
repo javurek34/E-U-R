@@ -325,7 +325,7 @@ h1:focus{outline:none}
 
 /* ---------- Menší obrazovky ---------- */
 @media (max-width:960px){
-  .hero{grid-template-columns:1fr;gap:40px;padding-top:44px}
+  .hero{grid-template-columns:minmax(0,1fr);gap:40px;padding-top:44px}
   .hero-art{max-width:460px}
   .phase-grid{grid-template-columns:1fr}
   .phase-card h3{margin-top:28px}
