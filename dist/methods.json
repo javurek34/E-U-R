@@ -10,7 +10,14 @@
       "Položte otevřenou otázku.",
       "Zapisujte všechny nápady bez posuzování.",
       "Společně hledejte souvislosti a otázky pro další učení."
-    ]
+    ],
+    "minutes": 5,
+    "group": "class",
+    "materials": "Tabule nebo velký papír",
+    "prompt": "Říkejte vše, co vás napadne, když se řekne revoluce. Nápady zatím nehodnotíme.",
+    "watch": "Nechte zaznít různé nápady; jejich správnost ověřujte až v další práci.",
+    "origin": "pdf",
+    "source": "evokace"
   },
   {
     "id": 2,
@@ -23,7 +30,14 @@
       "Zapište ústřední téma.",
       "Přidávejte větve s pojmy a vztahy.",
       "Mapu uchovejte pro závěrečnou reflexi."
-    ]
+    ],
+    "minutes": 10,
+    "group": "group",
+    "materials": "Papír a fixy",
+    "prompt": "Napište doprostřed Voda. Kolem zaznamenejte, co o vodě víte, a spojte související pojmy.",
+    "watch": "Původní mapu nevyhazujte. V reflexi ji doplňte jinou barvou.",
+    "origin": "pdf",
+    "source": "evokace"
   },
   {
     "id": 3,
@@ -36,7 +50,14 @@
       "Napište téma jedním slovem.",
       "Doplňte dvě přídavná jména a tři slovesa.",
       "Přidejte větu o čtyřech slovech a závěrečné shrnující slovo."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Napište pětilístek ke slovu svoboda: téma, dvě vlastnosti, tři slovesa, věta o čtyřech slovech a jedno shrnující slovo.",
+    "watch": "V evokaci zachyťte vstupní představu; nevyžadujte hotové odborné shrnutí.",
+    "origin": "pdf",
+    "source": "evokace"
   },
   {
     "id": 4,
@@ -49,7 +70,14 @@
       "Předložte několik klíčových slov.",
       "Nechte žáky odhadnout jejich vztahy a téma.",
       "Po práci s učivem se k odhadům vraťte."
-    ]
+    ],
+    "minutes": 5,
+    "group": "pairs",
+    "materials": "Čtyři pojmy na tabuli",
+    "prompt": "Atom, elektron, energie, jádro: jak spolu mohou souviset? Ve dvojici navrhněte vysvětlení.",
+    "watch": "Předem neprozrazujte správné vztahy. Odhady se mají při učení ověřovat.",
+    "origin": "pdf",
+    "source": "evokace"
   },
   {
     "id": 5,
@@ -62,7 +90,14 @@
       "Ukažte obrázek související s tématem.",
       "Oddělte pozorování od domněnek.",
       "Zapište hypotézy, které budete ověřovat."
-    ]
+    ],
+    "minutes": 5,
+    "group": "class",
+    "materials": "Obrázek k tématu",
+    "prompt": "Co na obrázku skutečně vidíte? Co si z toho domýšlíte? Jakou otázku byste chtěli prozkoumat?",
+    "watch": "Důsledně odlišujte pozorování od interpretace.",
+    "origin": "pdf",
+    "source": "evokace"
   },
   {
     "id": 6,
@@ -75,7 +110,14 @@
       "Vytvořte sloupce Vím, Chci vědět, Dozvěděl/a jsem se.",
       "Na začátku vyplňte první dva sloupce.",
       "Poslední sloupec doplňte po učení."
-    ]
+    ],
+    "minutes": 10,
+    "group": "alone",
+    "materials": "Papír s tabulkou nebo sešit",
+    "prompt": "K tématu Sopky napište, co už víte a co chcete zjistit. Poslední sloupec doplníme na konci.",
+    "watch": "Nejasnosti ve sloupci Vím berte jako podněty k ověření, ne jako chyby k okamžitému hodnocení.",
+    "origin": "pdf",
+    "source": "evokace"
   },
   {
     "id": 7,
@@ -88,7 +130,14 @@
       "Určete místa pro ano a ne; umožněte i nejistotu.",
       "Přečtěte tvrzení a nechte žáky vybrat stanovisko.",
       "Vyzvěte k argumentaci a umožněte změnu názoru."
-    ]
+    ],
+    "minutes": 10,
+    "group": "class",
+    "materials": "Volné místo ve třídě",
+    "prompt": "Měly by být domácí úkoly povinné? Zvolte stanovisko a připravte jeden důvod. Názor můžete změnit.",
+    "watch": "Umožněte i odpověď nevím a zapojení bez přesouvání po třídě.",
+    "origin": "pdf",
+    "source": "evokace"
   },
   {
     "id": 8,
@@ -101,7 +150,14 @@
       "Připravte kartičky s pojmy.",
       "Zadejte kritérium řazení nebo třídění.",
       "Nechte žáky zdůvodnit řešení a označit nejistoty."
-    ]
+    ],
+    "minutes": 10,
+    "group": "group",
+    "materials": "Kartičky s pojmy nebo událostmi",
+    "prompt": "Seřaďte události podle času. U těch, kde si nejste jistí, položte otazník a vysvětlete proč.",
+    "watch": "Zajímejte se o zdůvodnění, ne pouze o výsledné pořadí.",
+    "origin": "pdf",
+    "source": "evokace"
   },
   {
     "id": 9,
@@ -114,7 +170,14 @@
       "Zadejte téma a krátký čas.",
       "Žáci píší bez zastavování a opravování.",
       "Nabídněte dobrovolné sdílení vybrané myšlenky."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Dvě minuty pište vše, co vás napadne o demokracii. Nezastavujte se a neopravujte text.",
+    "watch": "Text nemusí být určený ke čtení ostatním. Sdílení nechte dobrovolné.",
+    "origin": "pdf",
+    "source": "evokace"
   },
   {
     "id": 10,
@@ -127,7 +190,14 @@
       "Představte téma.",
       "Nechte každého napsat vlastní otázku.",
       "Otázky seskupte a při učení hledejte odpovědi."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Napište jednu otázku, na kterou byste chtěli znát odpověď o lidském mozku.",
+    "watch": "K otázkám se opravdu vraťte. Příliš široké pomozte zúžit.",
+    "origin": "pdf",
+    "source": "evokace"
   },
   {
     "id": 11,
@@ -140,7 +210,14 @@
       "Rozdělte téma mezi expertní skupiny.",
       "Nechte experty připravit vysvětlení.",
       "Vytvořte smíšené skupiny, kde si žáci předají poznatky a ověří porozumění."
-    ]
+    ],
+    "minutes": 30,
+    "group": "group",
+    "materials": "Rozdělené texty nebo jiné zdroje",
+    "prompt": "Staňte se experty na přidělený orgán. Připravte vysvětlení, aby jeho funkci pochopila nová skupina.",
+    "watch": "Každý expert potřebuje srozumitelný zdroj a čas na přípravu. Porozumění ověřte i individuálně.",
+    "origin": "pdf",
+    "source": "uvedomeni"
   },
   {
     "id": 12,
@@ -153,7 +230,14 @@
       "Rozdělte text do kratších úseků.",
       "Ke každému připojte otázku na porozumění.",
       "Odpovědi podložte konkrétní informací z textu."
-    ]
+    ],
+    "minutes": 15,
+    "group": "pairs",
+    "materials": "Krátký text a otázky",
+    "prompt": "Po každém odstavci se zastavte. Řekněte hlavní myšlenku a ukažte, o kterou část textu se opíráte.",
+    "watch": "Otázky mají vést k porozumění, ne jen k nalezení a opsání jedné věty.",
+    "origin": "pdf",
+    "source": "uvedomeni"
   },
   {
     "id": 13,
@@ -166,7 +250,14 @@
       "Domluvte význam značek.",
       "Žáci při čtení označují informace.",
       "Sdílejte nové poznatky a společně vyjasněte otazníky."
-    ]
+    ],
+    "minutes": 15,
+    "group": "alone",
+    "materials": "Text a tužka",
+    "prompt": "Při čtení označujte: ✓ už znám, + nová informace, ? potřebuji vysvětlit. Připravte jednu otázku ke sdílení.",
+    "watch": "Nepřidávejte příliš mnoho značek. Na vysvětlení otazníků vyhraďte čas.",
+    "origin": "pdf",
+    "source": "uvedomeni"
   },
   {
     "id": 14,
@@ -179,7 +270,14 @@
       "Formulujte badatelskou otázku a hypotézy.",
       "Naplánujte bezpečné zkoumání a záznam výsledků.",
       "Porovnejte zjištění s hypotézou a formulujte závěr."
-    ]
+    ],
+    "minutes": 30,
+    "group": "group",
+    "materials": "Materiály podle badatelské otázky",
+    "prompt": "Který materiál nejlépe izoluje teplo? Navrhněte předpověď a férové porovnání materiálů.",
+    "watch": "Dbejte na bezpečnost a srovnatelné podmínky. Čas upravte podle rozsahu bádání.",
+    "origin": "pdf",
+    "source": "uvedomeni"
   },
   {
     "id": 15,
@@ -192,7 +290,14 @@
       "Stanovte otázku, podmínky a bezpečnostní pravidla.",
       "Proveďte pokus a zaznamenejte pozorování.",
       "Vyvoďte závěr a pojmenujte omezení měření."
-    ]
+    ],
+    "minutes": 25,
+    "group": "group",
+    "materials": "Led, nádoby a pomůcky pro měření",
+    "prompt": "Odhadněte, kde led roztaje nejrychleji. Změňte jednu podmínku, sledujte průběh a zapište výsledek.",
+    "watch": "Předem ověřte bezpečnost pokusu a měňte jen jednu sledovanou podmínku.",
+    "origin": "pdf",
+    "source": "uvedomeni"
   },
   {
     "id": 16,
@@ -205,7 +310,14 @@
       "Předložte anonymní chybné řešení.",
       "Nechte žáky vysvětlit příčinu chyby.",
       "Společně opravte postup a ověřte jej na dalším příkladu."
-    ]
+    ],
+    "minutes": 10,
+    "group": "pairs",
+    "materials": "Anonymní chybné řešení",
+    "prompt": "Najděte první místo, kde řešení přestává platit. Vysvětlete příčinu a navrhněte opravu.",
+    "watch": "Nehledejte viníka chyby. Rozebírejte postup a uvažování.",
+    "origin": "pdf",
+    "source": "uvedomeni"
   },
   {
     "id": 17,
@@ -218,7 +330,14 @@
       "Vyberte dva zdroje ke stejnému tématu.",
       "Porovnejte tvrzení, důkazy, autorství a kontext.",
       "Oddělte shody, rozdíly a neověřené informace."
-    ]
+    ],
+    "minutes": 20,
+    "group": "pairs",
+    "materials": "Dva zdroje ke stejnému tématu",
+    "prompt": "Porovnejte dva články. V čem se shodují, čím své závěry dokládají a co zatím nemůžete ověřit?",
+    "watch": "Rozdílnost tvrzení sama o sobě nedokazuje, který zdroj je spolehlivější.",
+    "origin": "pdf",
+    "source": "uvedomeni"
   },
   {
     "id": 18,
@@ -231,7 +350,14 @@
       "Představte situaci, role a omezení.",
       "Nechte skupiny navrhnout a zdůvodnit řešení.",
       "Rozeberte důsledky rozhodnutí a propojte je s učivem."
-    ]
+    ],
+    "minutes": 25,
+    "group": "group",
+    "materials": "Zadání situace a rolí",
+    "prompt": "Jste krizový štáb při povodni. Dohodněte první tři kroky a zdůvodněte jejich pořadí.",
+    "watch": "Po simulaci rozeberte rozhodnutí a jejich důsledky; nehodnoťte jen herecký výkon.",
+    "origin": "pdf",
+    "source": "uvedomeni"
   },
   {
     "id": 19,
@@ -244,7 +370,14 @@
       "Rozdělte role a připravte podklady.",
       "Odehrajte krátkou scénu.",
       "Vystupte z rolí a reflektujte souvislosti s tématem."
-    ]
+    ],
+    "minutes": 25,
+    "group": "group",
+    "materials": "Podklady k rolím",
+    "prompt": "Připravte krátký soudní proces s historickou postavou. Každé tvrzení opřete o dostupné podklady.",
+    "watch": "Po scénce vždy vystupte z rolí a odlište historická fakta od dramatické licence.",
+    "origin": "pdf",
+    "source": "uvedomeni"
   },
   {
     "id": 20,
@@ -257,7 +390,14 @@
       "Vraťte žákům jejich úvodní zápis.",
       "Nechte je popsat konkrétní změnu.",
       "Doplňte důkaz nebo příklad nového porozumění."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Úvodní zápis žáka",
+    "prompt": "Porovnejte svůj zápis ze začátku s tím, co víte teď. Uveďte jednu změnu a příklad, který ji dokládá.",
+    "watch": "Pokrok vztahujte k vlastnímu začátku, ne k výkonu spolužáka.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 21,
@@ -270,7 +410,14 @@
       "Připravte dvě až tři větné opory.",
       "Dejte čas na samostatné doplnění.",
       "Sdílejte dobrovolně a využijte odpovědi pro další výuku."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Doplňte: Dnes jsem pochopil/a… Pomohlo mi… Příště zkusím…",
+    "watch": "Vyberte nejvýše tři věty, aby zbyl čas na konkrétní odpovědi.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 22,
@@ -283,7 +430,14 @@
       "Připravte tři sloupce.",
       "Nechte žáky zapsat konkrétní postřehy.",
       "Z obtíží vyberte podnět k dalšímu kroku."
-    ]
+    ],
+    "minutes": 10,
+    "group": "alone",
+    "materials": "Papír se třemi sloupci",
+    "prompt": "Zapište, co vám pomohlo, co bylo obtížné a co vás zaujalo. U každé položky buďte konkrétní.",
+    "watch": "Obtíže využijte k domluvě další podpory, ne jen jako seznam stížností.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 23,
@@ -296,7 +450,14 @@
       "Nabídněte tři větné začátky.",
       "Nechte žáky doplnit konkrétní dovednosti.",
       "Propojte nabídky pomoci s potřebami spolužáků."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Napište jednu věc, kterou už umíte, jednu, s níž potřebujete pomoci, a jednu, v níž můžete pomoci druhým.",
+    "watch": "Nabízená pomoc má být dobrovolná; ověřte, že žák dané dovednosti opravdu rozumí.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 24,
@@ -309,7 +470,14 @@
       "Každý připraví otázku k cíli hodiny.",
       "Ve dvojici si otázky vyměňte.",
       "Porovnejte odpovědi a vyjasněte nejasnosti."
-    ]
+    ],
+    "minutes": 5,
+    "group": "pairs",
+    "materials": "Bez pomůcek",
+    "prompt": "Připravte pro spolužáka otázku, na které poznáte, zda rozumí dnešní hlavní myšlence. Nechte ho vysvětlit odpověď.",
+    "watch": "Dávejte přednost otázkám na vysvětlení před hádáním izolovaného údaje.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 25,
@@ -322,7 +490,14 @@
       "Vraťte se k původní mapě.",
       "Doplňte a případně opravte vztahy jinou barvou.",
       "Nechte žáky vysvětlit jednu důležitou změnu."
-    ]
+    ],
+    "minutes": 10,
+    "group": "alone",
+    "materials": "Úvodní myšlenková mapa a jiná barva",
+    "prompt": "Vraťte se k mapě ze začátku. Jinou barvou doplňte nové vztahy a opravte představy, které se změnily.",
+    "watch": "Změny si nechte krátce vysvětlit; počet přidaných slov sám o sobě neukazuje porozumění.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 26,
@@ -335,7 +510,14 @@
       "Požádejte o jedno slovo.",
       "Přidejte zdůvodnění vztahující se k učení.",
       "Vyberte několik dobrovolných sdílení."
-    ]
+    ],
+    "minutes": 5,
+    "group": "class",
+    "materials": "Bez pomůcek",
+    "prompt": "Vyberte jedno slovo, které vystihuje váš dnešní poznatek. Připojte větu, proč jste ho zvolili.",
+    "watch": "Samotné slovo nestačí. O porozumění vypovídá hlavně vysvětlení.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 27,
@@ -348,7 +530,14 @@
       "Domluvte pravidla a možnost vynechat odpověď.",
       "Položte jednu konkrétní otázku.",
       "Postupně sdílejte bez hodnocení ostatních."
-    ]
+    ],
+    "minutes": 15,
+    "group": "class",
+    "materials": "Prostor pro kruh nebo sezení v lavicích",
+    "prompt": "Co vám dnes nejvíc pomohlo porozumět tématu? Poslouchejte bez přerušování; odpověď můžete vynechat.",
+    "watch": "Nenuťte žáky veřejně sdílet osobní pocity. Čas závisí na velikosti třídy.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 28,
@@ -361,7 +550,14 @@
       "Vraťte se ke společnému cíli.",
       "Pojmenujte konkrétní příspěvky i překážky.",
       "Dohodněte jednu změnu pro příští spolupráci."
-    ]
+    ],
+    "minutes": 10,
+    "group": "group",
+    "materials": "Bez pomůcek",
+    "prompt": "Čím jsem přispěl/a ke společné práci? Co nám pomohlo a co příště konkrétně změníme?",
+    "watch": "Vracejte se k pozorovatelnému jednání, nikoli k nálepkám o osobnosti spolužáků.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 29,
@@ -374,7 +570,14 @@
       "Předem vysvětlete význam tří dveří.",
       "Žáci zvolí dveře a krátce zdůvodní volbu.",
       "Podle odpovědí nabídněte vhodnou podporu."
-    ]
+    ],
+    "minutes": 5,
+    "group": "class",
+    "materials": "Tři označená místa nebo symboly",
+    "prompt": "Vyberte: vysvětlím samostatně / potřebuji procvičit / potřebuji pomoc. Přidejte konkrétní důvod.",
+    "watch": "Volba není známka. Nabídněte diskrétní nebo nepohybovou variantu.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 30,
@@ -387,7 +590,14 @@
       "Připomeňte začátek práce.",
       "Nechte každého napsat konkrétní radu.",
       "Zvažte, kde půjde radu příště využít."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Jakou jednu radu byste dali sami sobě před začátkem dnešní práce? Napište, proč by pomohla.",
+    "watch": "Rada má být proveditelná, například nakresli si náčrt místo více se snaž.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 31,
@@ -400,7 +610,14 @@
       "Rozmístěte otázky na papírech.",
       "Žáci tiše zapisují odpovědi a navazují na ostatní.",
       "Na závěr shrňte hlavní myšlenky."
-    ]
+    ],
+    "minutes": 15,
+    "group": "group",
+    "materials": "Velké papíry a fixy",
+    "prompt": "Tiše napište odpověď na otázku. Pak si přečtěte příspěvky ostatních a připojte věcnou reakci nebo otázku.",
+    "watch": "Stanovte pravidla respektujícího komentování a nabídněte jinou formu žákům s obtížemi při psaní.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 32,
@@ -413,7 +630,14 @@
       "Dejte čas vybavit si okamžik pochopení.",
       "Nechte žáky popsat, co pochopili a co pomohlo.",
       "Nabídněte dobrovolné sdílení."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Bez pomůcek",
+    "prompt": "Vybavte si okamžik, kdy vám něco došlo. Co jste pochopili a co vám k tomu pomohlo?",
+    "watch": "Aha moment nemusí přijít v každé hodině. Umožněte popsat i postupné porozumění.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 33,
@@ -426,7 +650,14 @@
       "Každý zapíše jednu otevřenou otázku.",
       "Otázky seskupte podle témat.",
       "Určete, ke kterým se vrátíte příště."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Napište jednu otázku, která vám po hodině zůstává. Zkuste pojmenovat, co přesně je nejasné.",
+    "watch": "K vybraným otázkám se vraťte v další hodině; nevyžadujte jejich okamžité vyřešení.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 34,
@@ -439,7 +670,14 @@
       "Nechte každého samostatně přemýšlet.",
       "Ve dvojici sdílejte myšlenky.",
       "Každý zapíše vlastní závěrečné shrnutí."
-    ]
+    ],
+    "minutes": 10,
+    "group": "pairs",
+    "materials": "Papír a tužka",
+    "prompt": "Nejdřív sami promyslete hlavní poznatek. Sdílejte ho ve dvojici a nakonec každý napište vlastní shrnutí.",
+    "watch": "Nepřeskakujte samostatné přemýšlení před rozhovorem.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 35,
@@ -452,7 +690,14 @@
       "Připomeňte kritéria kvalitní práce.",
       "Žáci uvedou dvě konkrétní silné stránky.",
       "Připojí jedno proveditelné doporučení."
-    ]
+    ],
+    "minutes": 10,
+    "group": "pairs",
+    "materials": "Práce spolužáka a kritéria",
+    "prompt": "Podle domluvených kritérií napište dvě konkrétní silné stránky práce a jedno doporučení ke zlepšení.",
+    "watch": "Zpětná vazba se týká práce, ne člověka. Doporučení musí jít uskutečnit.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 36,
@@ -465,7 +710,14 @@
       "Vraťte se k původním představám.",
       "Doplňte obě části věty.",
       "Přidejte důkaz nebo zkušenost, která změnu podpořila."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Doplňte: Dřív jsem si myslel/a… Teď si myslím… Ke změně mě přivedlo…",
+    "watch": "Nemusí se změnit každý názor. Žák může doložit i jeho zpřesnění nebo potvrzení.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 37,
@@ -478,7 +730,14 @@
       "Představte strukturu 3–2–1.",
       "Dejte čas na samostatný zápis.",
       "Využijte otázky pro navazující výuku."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Napište tři nové informace, dvě zajímavosti a jednu otázku, kterou si odnášíte.",
+    "watch": "U krátké hodiny přiměřeně zmenšete rozsah; cílem není zaplnit všech šest položek za každou cenu.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 38,
@@ -491,7 +750,14 @@
       "Položte krátkou otázku navázanou na cíl hodiny.",
       "Žáci samostatně odpovědí.",
       "Odpovědi využijte při přípravě další hodiny."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Lístek papíru",
+    "prompt": "Vysvětlete jednu příčinu dnešního jevu a napište, čemu ještě nerozumíte. Lístek odevzdejte při odchodu.",
+    "watch": "Lístky před další hodinou projděte a podle odpovědí upravte navazující výuku.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 39,
@@ -504,7 +770,14 @@
       "Požádejte o jednu větu k hlavnímu poznatku.",
       "Dejte prostor vlastní formulaci.",
       "Porovnejte, které důležité souvislosti věty zachycují."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Shrňte dnešní hlavní poznatek jednou větou tak, aby jí rozuměl někdo, kdo na hodině nebyl.",
+    "watch": "Všímejte si věcné správnosti, ne jen stručnosti.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 40,
@@ -517,7 +790,14 @@
       "Vysvětlete význam barev i slovně.",
       "Žáci zvolí barvu a doplní konkrétní důvod.",
       "Ověřte porozumění drobným úkolem a nabídněte podporu."
-    ]
+    ],
+    "minutes": 3,
+    "group": "class",
+    "materials": "Barevné kartičky nebo slovní odpověď",
+    "prompt": "Zvolte zelenou: vysvětlím; oranžovou: potřebuji procvičit; červenou: potřebuji pomoc. Přidejte příklad.",
+    "watch": "Barvu vždy propojte se slovy; sebehodnocení ověřte drobným úkolem.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 41,
@@ -530,7 +810,14 @@
       "Stanovte srozumitelnou škálu.",
       "Každý vyznačí jistotu a zdůvodní ji.",
       "Pojmenujte další malý krok."
-    ]
+    ],
+    "minutes": 3,
+    "group": "alone",
+    "materials": "Bez pomůcek",
+    "prompt": "Na škále od 1 do 5 ukažte, jak jistě vysvětlíte dnešní postup. Co vám pomůže posunout se o stupeň?",
+    "watch": "Jistota a skutečné porozumění se mohou lišit. Ptejte se na konkrétní důkaz.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 42,
@@ -543,7 +830,14 @@
       "Jasně dohodněte význam každého gesta.",
       "Položte konkrétní otázku na porozumění.",
       "Reagujte na potřeby a umožněte soukromé sdělení."
-    ]
+    ],
+    "minutes": 3,
+    "group": "class",
+    "materials": "Bez pomůcek",
+    "prompt": "Domluveným gestem ukažte, zda rozumíte, váháte, nebo potřebujete pomoc. Můžete mi to sdělit i soukromě.",
+    "watch": "Význam gest dohodněte předem. Pro každou odpověď připravte navazující podporu.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 43,
@@ -556,7 +850,14 @@
       "Rozmístěte žákovské práce.",
       "Domluvte kritéria a pravidla komentářů.",
       "Po prohlídce se vraťte k vlastní práci a zvolte úpravu."
-    ]
+    ],
+    "minutes": 15,
+    "group": "class",
+    "materials": "Vystavené žákovské práce a lístky",
+    "prompt": "Prohlédněte si práce. Zapište jednu inspiraci a jednu otázku a pak zvolte, co upravíte ve vlastní práci.",
+    "watch": "Komentáře opřete o kritéria; nejde o soutěž o nejhezčí práci.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 44,
@@ -569,7 +870,14 @@
       "Určete, co znamenají krajní body škály.",
       "Žáci zvolí hodnotu a připojí příklad.",
       "Zeptejte se, co pomůže k dalšímu kroku."
-    ]
+    ],
+    "minutes": 3,
+    "group": "alone",
+    "materials": "Bez pomůcek",
+    "prompt": "Na škále 1–5 zhodnoťte, jak samostatně zvládnete dnešní typ úlohy. Svou volbu doložte příkladem.",
+    "watch": "Krajní body škály musejí mít konkrétní význam. Nesrovnávejte veřejně čísla žáků.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 45,
@@ -582,7 +890,14 @@
       "Přiřaďte čtyřem směrům konkrétní otázky.",
       "Nechte žáky odpovědět v jednotlivých směrech.",
       "Vyberte další krok podle odpovědí."
-    ]
+    ],
+    "minutes": 10,
+    "group": "alone",
+    "materials": "Papír s kompasem nebo sešit",
+    "prompt": "Ve čtyřech směrech zapište: co vím, co mě zaujalo, co je nejasné a kam chci pokračovat.",
+    "watch": "Otázky pro směry jsou zvolenou variantou, nikoli jediným závazným významem kompasu.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 46,
@@ -595,7 +910,14 @@
       "Připravte šest otázek na kostku.",
       "Žáci házejí a odpovídají na vylosovanou otázku.",
       "Umožněte jinou otázku, pokud se nehodí."
-    ]
+    ],
+    "minutes": 10,
+    "group": "group",
+    "materials": "Kostka a šest otázek",
+    "prompt": "Hoďte kostkou a odpovězte na přiřazenou otázku o dnešním učení. Pokud se nehodí, zvolte jinou.",
+    "watch": "Náhoda nesmí žáka nutit do citlivého sdílení. Nabídněte možnost otázku změnit.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 47,
@@ -608,7 +930,14 @@
       "Určete, komu má vysvětlení sloužit.",
       "Žáci formulují vysvětlení vlastními slovy a příkladem.",
       "Posluchač položí doplňující otázku."
-    ]
+    ],
+    "minutes": 5,
+    "group": "pairs",
+    "materials": "Bez pomůcek",
+    "prompt": "Vysvětlete mladšímu spolužákovi, jak vzniká déšť. Použijte vlastní slova a jeden příklad.",
+    "watch": "Jednoduchost nesmí měnit věcný význam. Doplňující otázkou odhalte nejasnosti.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 48,
@@ -621,7 +950,14 @@
       "Nabídněte bezpečnou volbu příkladu chyby.",
       "Žáci popíší, co se díky ní naučili.",
       "Zformulují postup, který příště pomůže."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Vlastní práce s chybou",
+    "prompt": "Vyberte chybu, která vám něco ukázala. Co jste díky ní pochopili a jak budete příště postupovat?",
+    "watch": "Sdílení konkrétní chyby musí zůstat bezpečné a dobrovolné.",
+    "origin": "pdf",
+    "source": "reflexe"
   },
   {
     "id": 49,
@@ -634,6 +970,317 @@
       "Popište stupně pomocí konkrétních dovedností.",
       "Žáci vyznačí svůj stupeň a doloží jej příkladem.",
       "Zvolí nejbližší dosažitelný krok."
-    ]
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Nákres žebříku nebo sešit",
+    "prompt": "Označte, co už zvládnete: poznám pojem, vysvětlím jej, použiji jej. Přidejte důkaz a další krok.",
+    "watch": "Stupně odvozujte od cíle hodiny. Každý žák nemusí začínat na stejném místě.",
+    "origin": "pdf",
+    "source": "reflexe"
+  },
+  {
+    "id": 50,
+    "phase": "E",
+    "name": "Brainwriting",
+    "description": "Nápady nejdřív vznikají potichu na papíře. Teprve potom je skupina sdílí a propojuje.",
+    "use": "Zapojení žáků, kteří potřebují čas na rozmyšlenou, a sběr různých vstupních představ.",
+    "example": "Jak můžeme ve škole snížit množství odpadu?",
+    "steps": [
+      "Položte jednu otevřenou otázku a dejte dvě minuty na tiché psaní.",
+      "Žáci ve skupině předají papír dál a přidají další nápad.",
+      "Skupina vybere odlišné podněty a otázky, které chce prozkoumat."
+    ],
+    "minutes": 10,
+    "group": "group",
+    "materials": "Papír a tužka",
+    "prompt": "Nejdřív sami napište nápady, jak snížit odpad ve škole. Potom předejte papír a navazujte na nápady ostatních.",
+    "watch": "Nehodnoťte nápady během sběru a nevynucujte podpis pod citlivým názorem.",
+    "origin": "added"
+  },
+  {
+    "id": 51,
+    "phase": "E",
+    "name": "Rychlá anketa",
+    "description": "Krátká volba mezi několika odpověďmi ukáže, s jakými představami žáci do tématu vstupují.",
+    "use": "Rychlé zmapování předporozumění celé třídy.",
+    "example": "Co se stane s hladinou vody, když roztaje plovoucí kostka ledu?",
+    "steps": [
+      "Připravte otázku a dvě až čtyři možnosti.",
+      "Nechte žáky samostatně zvolit odpověď a promyslet důvod.",
+      "Zaznamenejte výsledky bez odhalení řešení a vraťte se k nim po učení."
+    ],
+    "minutes": 5,
+    "group": "class",
+    "materials": "Otázka na tabuli",
+    "prompt": "Co se podle vás stane s hladinou, když roztaje plovoucí led? Zvolte možnost a připravte vysvětlení.",
+    "watch": "Volba nemá být vstupní známkou. Důležitý je důvod a následné ověření.",
+    "origin": "added"
+  },
+  {
+    "id": 52,
+    "phase": "E",
+    "name": "Záhadný předmět",
+    "description": "Konkrétní předmět otevírá téma prostřednictvím pozorování, odhadů a otázek.",
+    "use": "Vzbuzení zájmu a rozlišování pozorování od domněnky.",
+    "example": "Lupa, šiška nebo starý klíč jako začátek zkoumání.",
+    "steps": [
+      "Ukažte bezpečný předmět a nechte žáky popsat jeho znaky.",
+      "Sesbírejte odhady původu, použití a souvislostí.",
+      "Zvolte otázku, kterou další část hodiny pomůže objasnit."
+    ],
+    "minutes": 5,
+    "group": "class",
+    "materials": "Předmět související s tématem",
+    "prompt": "Co o předmětu můžete říct jen z pozorování? Co odhadujete a co byste o něm chtěli zjistit?",
+    "watch": "Neudělejte z aktivity hádanku s jedním vítězem. Oceňte podložené pozorování a otázky.",
+    "origin": "added"
+  },
+  {
+    "id": 53,
+    "phase": "E",
+    "name": "Pravda, nebo domněnka?",
+    "description": "Žáci před učením posuzují několik tvrzení a svou volbu později ověřují pomocí důkazů.",
+    "use": "Odhalení vstupních představ a práce s miskoncepcemi.",
+    "example": "Tvrzení: Všechny kovy přitahuje magnet.",
+    "steps": [
+      "Připravte tři až pět tvrzení k cíli hodiny.",
+      "Žáci označí souhlas, nesouhlas nebo nejistotu a připojí důvod.",
+      "Při práci se zdroji vyhledají důkazy a původní odpovědi případně upraví."
+    ],
+    "minutes": 10,
+    "group": "alone",
+    "materials": "Několik tvrzení na tabuli",
+    "prompt": "U každého tvrzení označte souhlas, nesouhlas nebo nevím. Zapište důvod; během hodiny odpovědi ověříme.",
+    "watch": "Nepoužívejte chytáky a ponechte možnost nevím. Opravování opřete o důkazy.",
+    "origin": "added"
+  },
+  {
+    "id": 54,
+    "phase": "E",
+    "name": "Mysli – spoj se – sdílej",
+    "description": "Každý nejprve přemýšlí samostatně, potom mluví ve dvojici a nakonec může přispět do společné diskuse.",
+    "use": "Zapojení více žáků a formulování vstupních myšlenek.",
+    "example": "Proč mají některé rostliny silné dužnaté listy?",
+    "steps": [
+      "Položte otázku a dejte krátký tichý čas.",
+      "Ve dvojicích žáci porovnají své odpovědi.",
+      "Vybrané dvojice sdílejí jednu myšlenku nebo otevřenou otázku."
+    ],
+    "minutes": 5,
+    "group": "pairs",
+    "materials": "Bez pomůcek",
+    "prompt": "Nejdřív si sami rozmyslete, proč mají některé rostliny dužnaté listy. Potom porovnejte nápady ve dvojici.",
+    "watch": "Dejte skutečný čas na samostatné myšlení. Sdílení před třídou nemusí absolvovat všichni.",
+    "origin": "added"
+  },
+  {
+    "id": 55,
+    "phase": "E",
+    "name": "Předpověď podle názvu",
+    "description": "Název textu nebo lekce slouží jako podnět k odhadu obsahu a vytvoření otázek.",
+    "use": "Aktivace zkušeností před čtením a hledání vlastního čtenářského cíle.",
+    "example": "Název Když řeka vystoupí z břehů: co čekáme v textu?",
+    "steps": [
+      "Ukažte pouze název a případně podnadpis.",
+      "Žáci odhadnou obsah a zdůvodní předpověď.",
+      "Při čtení vyhodnotí, co se potvrdilo a co je překvapilo."
+    ],
+    "minutes": 5,
+    "group": "pairs",
+    "materials": "Název textu",
+    "prompt": "Podle názvu odhadněte, o čem text bude. Které slovo vás k odhadu vede a jakou otázku byste chtěli zodpovědět?",
+    "watch": "Předpovědi se nemusejí trefit. Hodnoťte jejich zdůvodnění a následné ověřování.",
+    "origin": "added"
+  },
+  {
+    "id": 56,
+    "phase": "U",
+    "name": "Podvojný deník",
+    "description": "Žák propojuje vybranou pasáž zdroje s vlastním komentářem, otázkou nebo zkušeností.",
+    "use": "Hlubší čtení, interpretace a formulování vlastního vztahu k textu.",
+    "example": "Vlevo citace z článku o vodě, vpravo vysvětlení, proč je důležitá.",
+    "steps": [
+      "Rozdělte stránku na pasáž ze zdroje a vlastní reakci.",
+      "Žáci vyberou několik podstatných míst a připíší komentář.",
+      "Ve dvojici vysvětlí volbu a podloží interpretaci textem."
+    ],
+    "minutes": 15,
+    "group": "alone",
+    "materials": "Text, papír a tužka",
+    "prompt": "Vlevo zapište krátkou pasáž, která vás zaujala. Vpravo vysvětlete proč, co z ní vyvozujete nebo na co se chcete zeptat.",
+    "watch": "Pravý sloupec nemá být přepsaná citace. Modelujte rozdíl mezi shrnutím a vlastní reakcí.",
+    "origin": "added"
+  },
+  {
+    "id": 57,
+    "phase": "U",
+    "name": "Vennův diagram",
+    "description": "Dvě překrývající se oblasti pomáhají rozlišit společné a odlišné znaky dvou jevů.",
+    "use": "Porovnávání pojmů, třídění informací a zdůvodňování vztahů.",
+    "example": "Společné a rozdílné znaky savců a ptáků.",
+    "steps": [
+      "Určete porovnávané jevy a kritéria.",
+      "Žáci ze zdrojů doplní rozdíly a společné znaky do průniku.",
+      "Nechají spolužáka ověřit dva zápisy a vysvětlí své rozhodnutí."
+    ],
+    "minutes": 15,
+    "group": "pairs",
+    "materials": "Papír s diagramem a informační zdroj",
+    "prompt": "Porovnejte savce a ptáky. Do průniku napište společné znaky, na strany rozdíly. Každý zápis ověřte ve zdroji.",
+    "watch": "Vybírejte srovnatelné znaky. Upozorněte na výjimky a příliš široká zobecnění.",
+    "origin": "added"
+  },
+  {
+    "id": 58,
+    "phase": "U",
+    "name": "Učení na stanovištích",
+    "description": "Menší skupiny postupují mezi několika úlohami, které rozvíjejí různé stránky stejného tématu.",
+    "use": "Práce s více způsoby zkoumání a aktivní zapojení skupin.",
+    "example": "Na stanovištích žáci pozorují, čtou a vyhodnocují různé vlastnosti vody.",
+    "steps": [
+      "Připravte krátká srozumitelná zadání a společný cíl.",
+      "Rozdělte skupiny, role a čas pro přesun.",
+      "Po průchodu propojte výsledky do jednoho vysvětlení."
+    ],
+    "minutes": 30,
+    "group": "group",
+    "materials": "Stanoviště s připravenými úlohami",
+    "prompt": "Na každém stanovišti vyřešte úkol, zaznamenejte zjištění a připravte, jak souvisí s hlavní otázkou hodiny.",
+    "watch": "Počet stanovišť přizpůsobte času a třídě. Přesuny nesmějí vytlačit závěrečné propojení poznatků.",
+    "origin": "added"
+  },
+  {
+    "id": 59,
+    "phase": "U",
+    "name": "Pojmová mapa",
+    "description": "Pojmy se propojují popsanými vazbami tak, aby každé spojení tvořilo smysluplné tvrzení.",
+    "use": "Porozumění vztahům a uspořádání složitějšího učiva.",
+    "example": "Slunce → dodává energii pro → fotosyntézu.",
+    "steps": [
+      "Připravte několik klíčových pojmů nebo je vyberte ze zdroje.",
+      "Žáci je uspořádají a na spojnice doplní vztahy.",
+      "Přečtou spojení jako věty a opraví nepřesné vazby."
+    ],
+    "minutes": 20,
+    "group": "pairs",
+    "materials": "Kartičky s pojmy nebo papír",
+    "prompt": "Propojte pojmy tak, aby šla spojení přečíst jako pravdivé věty. Na každou spojnici napište, jaký vztah vyjadřuje.",
+    "watch": "Na rozdíl od volné myšlenkové mapy trvejte na pojmenování vazeb mezi pojmy.",
+    "origin": "added"
+  },
+  {
+    "id": 60,
+    "phase": "U",
+    "name": "Řízené čtení s předvídáním",
+    "description": "Čtení po úsecích střídá předpovědi dalšího vývoje s jejich ověřováním v textu.",
+    "use": "Aktivní porozumění, inference a práce s důkazy.",
+    "example": "Před dalším úsekem příběhu žáci odhadují jednání postavy podle dosavadních stop.",
+    "steps": [
+      "Vyberte text a místa pro zastavení.",
+      "Před dalším úsekem žáci odhadnou vývoj a doloží ho dosavadním textem.",
+      "Po přečtení předpověď upraví a vysvětlí, které informace ji změnily."
+    ],
+    "minutes": 20,
+    "group": "class",
+    "materials": "Text rozdělený na úseky",
+    "prompt": "Co podle vás bude následovat? Ukažte v dosavadním textu stopu, o kterou svůj odhad opíráte.",
+    "watch": "Nejde o soutěž v hádání. Vracejte se k tomu, jak žáci z textu vyvozují závěry.",
+    "origin": "added"
+  },
+  {
+    "id": 61,
+    "phase": "U",
+    "name": "Vzájemné vysvětlování",
+    "description": "Dvojice si střídavě vysvětluje nový poznatek; posluchač ověřuje porozumění doplňující otázkou.",
+    "use": "Zpracování nového učiva vlastními slovy a odhalování nejasností.",
+    "example": "Jeden vysvětluje koloběh vody, druhý se ptá na příčinu jednotlivých změn.",
+    "steps": [
+      "Po krátké práci se zdrojem rozdělte role mluvčího a posluchače.",
+      "Mluvčí vysvětlí poznatek bez opisování, posluchač se doptává.",
+      "Vyměňte role a na konci ověřte problematická místa ve zdroji."
+    ],
+    "minutes": 10,
+    "group": "pairs",
+    "materials": "Zdroj k ověření vysvětlení",
+    "prompt": "Vysvětli spolužákovi novou souvislost vlastními slovy. Posluchač položí otázku proč nebo jak. Pak se vyměňte.",
+    "watch": "Předcházejte šíření nepřesností: nejasné odpovědi ověřte ve spolehlivém zdroji nebo s učitelem.",
+    "origin": "added"
+  },
+  {
+    "id": 62,
+    "phase": "R",
+    "name": "Minutový zápis",
+    "description": "Krátké samostatné psaní zachytí nejdůležitější poznatek a místo, které ještě potřebuje vyjasnit.",
+    "use": "Rychlé zjištění porozumění a podklad pro další hodinu.",
+    "example": "Jedna minuta na hlavní poznatek a jednu nejasnost.",
+    "steps": [
+      "Položte dvě konkrétní otázky k cíli hodiny.",
+      "Dejte přibližně minutu až dvě na samostatný zápis.",
+      "Projďte odpovědi a vraťte se k opakujícím se nejasnostem."
+    ],
+    "minutes": 3,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Co je dnes nejdůležitější poznatek? Která konkrétní věc vám ještě není jasná?",
+    "watch": "Rychlost psaní nemá být překážkou. Podle potřeby nabídněte více času nebo ústní odpověď.",
+    "origin": "added"
+  },
+  {
+    "id": 63,
+    "phase": "R",
+    "name": "Návrat k úvodní otázce",
+    "description": "Žáci odpovídají znovu na otázku ze začátku hodiny a ukazují, čím se jejich vysvětlení změnilo.",
+    "use": "Propojení evokace s reflexí a ověření posunu v porozumění.",
+    "example": "Znovu vysvětli, co se stane s hladinou po roztání plovoucího ledu.",
+    "steps": [
+      "Připomeňte původní otázku a vlastní odhad žáka.",
+      "Nechte každého napsat nynější odpověď s důkazem.",
+      "Porovnejte obě vysvětlení a pojmenujte změnu."
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Úvodní otázka a původní odpověď",
+    "prompt": "Odpovězte znovu na úvodní otázku. Co teď vysvětlíte přesněji a které zjištění vás k tomu přivedlo?",
+    "watch": "Za změnu názoru žáka netrestejte. Původní a současnou odpověď porovnávejte věcně.",
+    "origin": "added"
+  },
+  {
+    "id": 64,
+    "phase": "R",
+    "name": "Důkaz o učení",
+    "description": "Žák vybere konkrétní ukázku, na níž lze poznat, že se přiblížil cíli hodiny.",
+    "use": "Sebehodnocení opřené o výsledek práce namísto pouhého dojmu.",
+    "example": "Vyber řešení, které ukazuje, že dokážeš použít měřítko mapy.",
+    "steps": [
+      "Připomeňte cíl a kritérium úspěchu.",
+      "Žáci vyberou práci nebo vytvoří krátkou ukázku dovednosti.",
+      "Vysvětlí, co ukázka dokládá a co ještě potřebují dopracovat."
+    ],
+    "minutes": 10,
+    "group": "alone",
+    "materials": "Vlastní práce žáka a kritérium úspěchu",
+    "prompt": "Vyberte jednu ukázku své práce. Vysvětlete, jak dokládá splnění dnešního cíle a co v ní chcete ještě zlepšit.",
+    "watch": "Důkaz nemusí být bezchybný. Musí ale souviset s konkrétním cílem, nikoli jen s množstvím práce.",
+    "origin": "added"
+  },
+  {
+    "id": 65,
+    "phase": "R",
+    "name": "Další malý krok",
+    "description": "Reflexe končí jedním konkrétním a dosažitelným krokem pro další učení.",
+    "use": "Převod zpětné vazby do následné činnosti.",
+    "example": "Příště u slovní úlohy nejdřív nakreslím vztahy mezi údaji.",
+    "steps": [
+      "Žáci pojmenují jednu aktuální potřebu.",
+      "Zvolí malý krok a kdy jej vyzkoušejí.",
+      "Dohodněte, jak poznají, že jim krok pomohl."
+    ],
+    "minutes": 5,
+    "group": "alone",
+    "materials": "Papír a tužka",
+    "prompt": "Co vám teď brání v dalším posunu? Napište jeden konkrétní krok, který zkusíte příště, a jak poznáte, že pomohl.",
+    "watch": "Vyhněte se vágním slibům typu budu se víc snažit. Krok musí jít pozorovat a provést.",
+    "origin": "added"
   }
 ]
