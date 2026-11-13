@@ -24,7 +24,7 @@ Statický web bez instalace závislostí a sestavování:
 python3 -m http.server 8080
 ```
 
-Otevřete http://localhost:8080. Web vyžaduje HTTP kvůli načtení `methods.json`. Po úpravě `dist/index.html` aktualizujte vstup pro GitHub Pages příkazem `node scripts/sync-entry.mjs`. Ostatní soubory zůstávají v `dist/` a používají se přímo, bez kopírování.
+Otevřete http://localhost:8080. Web vyžaduje HTTP kvůli načtení `methods.json`. Po úpravě `dist/index.html` aktualizujte vstup pro GitHub Pages příkazem `node scripts/sync-entry.mjs`. Při každém vydání změn zvyšte číslo verze `?v=` u `style.css` a `app.js` v `dist/index.html`, jinak může prohlížeč spojit novou stránku se starým skriptem z mezipaměti. Ostatní soubory zůstávají v `dist/` a používají se přímo, bez kopírování.
 
 ## Obsah
 

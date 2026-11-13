@@ -1,6 +1,7 @@
 'use strict';
 
 const ASSET_BASE = new URL('.', document.currentScript.src);
+const ASSET_VERSION = new URL(document.currentScript.src).search;
 const $ = (selector, root = document) => root.querySelector(selector);
 const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
 const app = $('#app');
@@ -755,7 +756,7 @@ window.addEventListener('storage', event => {
 
 async function load() {
   try {
-    const response = await fetch(new URL('methods.json', ASSET_BASE));
+    const response = await fetch(new URL('methods.json' + ASSET_VERSION, ASSET_BASE));
     if (!response.ok) throw new Error('HTTP ' + response.status);
     const data = await response.json();
     const valid = Array.isArray(data) && data.length && data.every(m => Number.isInteger(m.id) && PHASES[m.phase] && GROUPS[m.group] && Array.isArray(m.steps) && m.name && m.prompt && m.watch && Number.isFinite(m.minutes));
