@@ -2,7 +2,19 @@
 
 Veřejný web: https://javurek34.github.io/E-U-R/
 
-Český průvodce výběrem výukové metody podle fáze hodiny. Úvod obsahuje jen tři volby: evokace, uvědomění si významu a reflexe. Výběr fáze otevře stručný seznam po šesti metodách. Postup, pomůcky a zadání se zobrazí až v detailu konkrétní metody.
+Český průvodce výběrem výukové metody podle třífázového modelu učení E–U–R (evokace, uvědomění si významu, reflexe).
+
+## Co web umí
+
+- **Úvod**: hledání napříč všemi metodami, rychlý výběr, tři fáze hodiny a ukázková hodina.
+- **Metody** (`#metody`): karty všech metod s přepínáním fáze, hledáním bez ohledu na diakritiku a filtry podle času, formy práce a pomůcek. Filtry jsou součástí URL, např. `#metody?faze=U&cas=10&prace=pairs`.
+- **Detail** (`#metoda/38`): zadání pro žáky, postup, příklad, tipy, tisk a kopírování zadání.
+- **Promítání s odpočtem**: zadání přes celou obrazovku s časovačem a zvukovým signálem na konci.
+- **Moje hodina** (`#hodina`): jedna metoda pro každou fázi, součet času vůči 45 minutám, tisk plánu a sdílení odkazem (`#hodina?e=9&u=12&r=38`).
+- **Uložené** (`#ulozene`): oblíbené metody. Uložené metody, hodina i volba vzhledu se ukládají do localStorage v konkrétním prohlížeči.
+- Světlý i tmavý vzhled, rozložení pro telefon a tiskové styly.
+
+Starší odkazy `#faze/E`, `#faze/U` a `#faze/R` dál fungují.
 
 ## Spuštění
 
@@ -13,16 +25,6 @@ python3 -m http.server 8080
 ```
 
 Otevřete http://localhost:8080. Web vyžaduje HTTP kvůli načtení `methods.json`. Po úpravě `dist/index.html` aktualizujte vstup pro GitHub Pages příkazem `node scripts/sync-entry.mjs`. Ostatní soubory zůstávají v `dist/` a používají se přímo, bez kopírování.
-
-## Použití
-
-1. Vyberte fázi hodiny.
-2. Otevřete metodu; volitelně použijte hledání nebo upřesněte čas a formu práce.
-3. Zkopírujte zadání, projděte postup nebo si detail vytiskněte.
-
-Na úvodní stránce se jednotlivé metody nevypisují. Seznamy zobrazují nejvýše šest položek na stránku. Volba jiné fáze je dostupná i z přehledu metod.
-
-Vyhledávání ignoruje diakritiku. Filtry a stránka jsou součástí URL, takže návrat z detailu zachová předchozí výběr. Příklady odkazů: `#faze/E`, `#faze/U?cas=10&prace=pairs`, `#metoda/38`. Uložené metody využívají localStorage v konkrétním prohlížeči. Pokud automatické kopírování není dostupné, stránka nabídne označený text pro ruční kopírování.
 
 ## Obsah
 
@@ -38,9 +40,10 @@ Základ tvoří tři dodané přehledy PDF v `dist/sources/`. Jejich zařazení 
 
 ## Úpravy
 
-- `dist/index.html`: úvod a struktura tří pohledů.
-- `dist/style.css`: vzhled a responzivní i tiskové styly, bez externích písem a knihoven.
-- `dist/app.js`: navigace, stránkování, filtry, kopírování a oblíbené metody.
+- `dist/index.html`: kostra stránky (hlavička, patička, okno promítání). Obsah pohledů vykresluje `app.js`.
+- `dist/style.css`: vzhled, barvy fází, tmavý režim, responzivní a tiskové styly.
+- `dist/app.js`: směrování, seznam a filtry, detail, plánovač hodiny, promítání s odpočtem, ukládání.
+- `dist/fonts/`: písma Bricolage Grotesque a Figtree (licence SIL OFL, přiložena). Web nenačítá nic z cizích serverů.
 - `dist/methods.json`: obsah. Při přidávání zachovejte jedinečné `id`; hodnoty `phase` jsou `E`, `U`, `R`, hodnoty `group` jsou `alone`, `pairs`, `group`, `class`. Pole `origin` rozlišuje `pdf` a `added`. Původní `id` neměňte kvůli uloženým metodám a sdíleným odkazům.
 
 ## Hosting a ověření
@@ -49,4 +52,4 @@ GitHub Pages publikuje větev `main` z kořene repozitáře na https://javurek34
 
 Statický obsah v `dist/` zůstává použitelný také samostatně; `.openai/hosting.json` propojuje zdroj s dřívějším soukromým Sites webem.
 
-Kontroly při úpravě zahrnovaly syntaxi JavaScriptu, úplnost dat, lokální odkazy a interakční testy navigace, šestipoložkového stránkování, filtrů, návratu z detailu, uložení a kopírování včetně zamítnuté schránky. Vizuální kontrola v prohlížeči nebyla v prostředí dostupná.
+Vzhled a funkce byly ověřeny v prohlížeči Chromium na šířkách 320 až 1280 px: hledání, filtry, návrat z detailu, ukládání, plánovač a sdílení hodiny, promítání s odpočtem, tmavý režim a tisk.
