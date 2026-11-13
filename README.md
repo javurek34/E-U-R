@@ -52,4 +52,4 @@ GitHub Pages publikuje větev `main` z kořene repozitáře na https://javurek34
 
 Statický obsah v `dist/` zůstává použitelný také samostatně; `.openai/hosting.json` propojuje zdroj s dřívějším soukromým Sites webem.
 
-Vzhled a funkce byly ověřeny v prohlížeči Chromium na šířkách 320 až 1280 px: hledání, filtry, návrat z detailu, ukládání, plánovač a sdílení hodiny, promítání s odpočtem, tmavý režim a tisk.
+Vzhled a funkce byly ověřeny v prohlížeči Chromium na šířkách 320 až 1280 px: výběr po krocích s filtry a listováním návrhů, návrat z detailu se zachováním výběru, hledání, ukládání, náhodná metoda, promítání s odpočtem, staré odkazy a tisk.
