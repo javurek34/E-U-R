@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#faf9f5">
+<meta name="description" content="Vyberte si výukovou metodu podle fáze hodiny. Evokace, uvědomění si významu a reflexe: praktické zadání, pomůcky a postup pro učitele.">
+<title>Metody do výuky | E–U–R</title><link rel="stylesheet" href="dist/style.css"><script src="dist/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#obsah">Přejít na obsah</a>
+<header class="header shell"><a href="#" class="wordmark" aria-label="E–U–R: úvodní stránka">E<span>—</span>U<span>—</span>R<span class="logo-stop">.</span></a><span class="header-label">METODY DO VÝUKY</span><a href="#ulozene" class="saved-link">Moje uložené <span id="saved-count">0</span></a></header>
+<main id="obsah" class="shell" tabindex="-1">
+<div id="load-error" class="notice" role="alert" hidden>Metody se nepodařilo načíst. <button id="retry" type="button">Zkusit znovu</button></div>
+<section id="home-view" aria-labelledby="home-title">
+<div class="intro"><p class="kicker">PRAKTICKÝ VÝBĚR PRO UČITELE</p><h1 id="home-title">Výukové metody.<br>Podle fáze <span class="highlight">hodiny.</span></h1><p class="intro-description">Vyberte, kterou část hodiny připravujete.<br>Najdete metodu, zadání pro žáky i postup, jak ji vést.</p></div>
+<div class="selection-heading"><h2>Co právě připravujete?</h2><span>Začněte výběrem fáze ↓</span></div>
+<div class="phase-choices">
+<a class="phase-choice phase-e" href="#faze/E"><div class="phase-choice-top"><span>01 / ZAČÁTEK HODINY</span><b aria-hidden="true">↗</b></div><div class="phase-letter" aria-hidden="true">E</div><h3>Chci otevřít téma.</h3><p>Vybavit, co žáci vědí.<br>Vzbudit zájem a položit otázky.</p><div class="phase-choice-bottom"><strong>Evokace</strong><span id="count-E">16 metod</span></div></a>
+<a class="phase-choice phase-u" href="#faze/U"><div class="phase-choice-top"><span>02 / NOVÉ UČIVO</span><b aria-hidden="true">↗</b></div><div class="phase-letter" aria-hidden="true">U</div><h3>Chci jít do hloubky.</h3><p>Pracovat s informacemi.<br>Objevovat a chápat souvislosti.</p><div class="phase-choice-bottom"><strong>Uvědomění si významu</strong><span id="count-U">15 metod</span></div></a>
+<a class="phase-choice phase-r" href="#faze/R"><div class="phase-choice-top"><span>03 / ZÁVĚR HODINY</span><b aria-hidden="true">↗</b></div><div class="phase-letter" aria-hidden="true">R</div><h3>Chci zjistit, co si odnášejí.</h3><p>Pojmenovat, co se naučili.<br>Ověřit porozumění a další krok.</p><div class="phase-choice-bottom"><strong>Reflexe</strong><span id="count-R">34 metod</span></div></a>
+</div>
+<div class="home-bottom"><span class="margin-note">VYBRAT → OTEVŘÍT → POUŽÍT</span><p>Každá metoda má stručný návod.<br>Čas a organizaci si přizpůsobíte své třídě.</p></div>
+<details class="about"><summary>Co znamená E–U–R? <span aria-hidden="true">+</span></summary><div class="about-body"><p><strong>Evokace</strong> propojí téma s tím, co žáci už vědí, a otevře otázky. Při <strong>uvědomění si významu</strong> žáci pracují s novými informacemi a upravují své představy. V <strong>reflexi</strong> formulují, co pochopili a jak budou pokračovat.</p><p>Fázi vybírejte podle cíle. Některé metody mohou sloužit ve více částech hodiny; zde navazujeme na zařazení v dodaných podkladech.</p></div></details>
+</section>
+<section id="list-view" aria-labelledby="list-title" hidden>
+<nav class="breadcrumb" aria-label="Drobečková navigace"><a href="#">← Vybrat fázi hodiny</a><span>/</span><span id="crumb-phase"></span></nav>
+<div class="list-heading"><div><p id="list-kicker" class="kicker"></p><h1 id="list-title" tabindex="-1"></h1><p id="list-description"></p></div><span id="list-letter" class="list-letter" aria-hidden="true"></span></div>
+<nav id="phase-switch" class="phase-switch" aria-label="Změnit fázi"><a data-phase="E" href="#faze/E">E <span>Evokace</span></a><a data-phase="U" href="#faze/U">U <span>Uvědomění</span></a><a data-phase="R" href="#faze/R">R <span>Reflexe</span></a></nav>
+<div class="list-tools"><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="Hledat v této fázi…" aria-label="Hledat metodu"></label><button id="filter-toggle" class="text-button" aria-expanded="false" aria-controls="filters">Upřesnit výběr <span aria-hidden="true">+</span></button></div>
+<div id="filters" class="filters" hidden><label>Kolik máte času?<select id="time-filter"><option value="all">Libovolně</option><option value="5">Do 5 minut</option><option value="10">Do 10 minut</option><option value="long">Více než 10 minut</option></select></label><label>Jak budou žáci pracovat?<select id="group-filter"><option value="all">Jakoukoli formou</option><option value="alone">Samostatně</option><option value="pairs">Ve dvojicích</option><option value="group">Ve skupinách</option><option value="class">Společně s třídou</option></select></label><button id="clear-filters" class="text-button">Zrušit filtry</button></div>
+<div class="list-meta"><p id="results" role="status" aria-live="polite"></p><span>Vyberte název a otevřete postup ↘</span></div>
+<div id="method-list" class="method-list"></div>
+<div id="empty" class="empty" hidden><h2 id="empty-title">Žádná metoda neodpovídá výběru.</h2><p id="empty-description">Zkuste změnit hledání nebo zrušit upřesnění.</p><button id="empty-reset" class="solid-button">Zrušit hledání a filtry</button><a id="empty-home" class="solid-button" href="#" hidden>Vybrat fázi hodiny</a></div>
+<nav id="pagination" class="pagination" aria-label="Stránkování metod"></nav>
+</section>
+<article id="detail-view" aria-labelledby="detail-title" hidden>
+<nav class="breadcrumb" aria-label="Drobečková navigace"><a id="back-to-list" href="#">← Zpět na výběr metod</a><span>/</span><span id="detail-crumb"></span></nav>
+<div class="detail-heading"><p id="detail-kicker" class="kicker"></p><h1 id="detail-title" tabindex="-1"></h1><p id="detail-description" class="detail-description"></p><div class="detail-actions"><button id="detail-save" class="solid-button" aria-pressed="false">Uložit metodu</button><button id="print" class="outline-button">Vytisknout postup ↗</button></div></div>
+<dl class="facts"><div><dt>ORIENTAČNÍ ČAS</dt><dd id="detail-time"></dd></div><div><dt>FORMA PRÁCE</dt><dd id="detail-group"></dd></div><div><dt>CO PŘIPRAVIT</dt><dd id="detail-materials"></dd></div></dl>
+<div class="detail-columns"><div class="detail-main"><section class="instructions"><p class="section-label">01 / PŘÍMO DO HODINY</p><div class="instruction-heading"><h2>Zadání pro žáky</h2><button id="copy-prompt" class="text-button">Kopírovat zadání ↗</button></div><p id="detail-prompt" class="prompt-text"></p><p id="copy-status" class="copy-status" role="status" aria-live="polite"></p><textarea id="copy-fallback" readonly aria-label="Zadání ke zkopírování" hidden></textarea></section><section class="procedure"><p class="section-label">02 / VEDENÍ AKTIVITY</p><h2>Postup pro učitele</h2><ol id="detail-steps"></ol></section></div><aside class="detail-aside"><section><h2>Kdy se hodí</h2><p id="detail-use"></p></section><section><h2>Na co myslet</h2><p id="detail-watch"></p></section><section class="adaptation"><h2>Přizpůsobte své třídě</h2><p>Čas je orientační. Zadání i rozsah upravte podle věku žáků, cíle hodiny a potřeb třídy.</p></section></aside></div>
+<details class="source-details"><summary>O metodě a podkladech <span aria-hidden="true">+</span></summary><div><p id="detail-source"></p><a id="detail-pdf" href="#" target="_blank" rel="noopener">Otevřít podklad v PDF ↗</a></div></details>
+<div class="detail-bottom"><a id="another-method" class="outline-button" href="#">← Vybrat jinou metodu</a><a id="next-phase" class="text-button" href="#">Další fáze hodiny →</a></div>
+</article>
+<section id="not-found" class="empty" hidden><h1>Tuhle metodu tu nemáme.</h1><p>Vraťte se k výběru a najděte si jinou.</p><a class="solid-button" href="#">Vybrat fázi hodiny</a></section>
+</main>
+<footer class="footer shell"><a href="#" class="wordmark">E—U—R.</a><span>Metody pro přípravu vyučovací hodiny.</span><details class="footer-sources"><summary>Podklady a obsah</summary><div><p>Základem je 49 metod ze tří dodaných přehledů. Dalších 16 metod je doplněných a označených v detailu. Časy, organizace, zadání a metodické tipy jsou návrhy pro praxi.</p><a href="dist/sources/evokace.pdf" target="_blank" rel="noopener">Evokace · PDF ↗</a><a href="dist/sources/uvedomeni.pdf" target="_blank" rel="noopener">Uvědomění · PDF ↗</a><a href="dist/sources/reflexe.pdf" target="_blank" rel="noopener">Reflexe · PDF ↗</a></div></details></footer>
+<noscript><p class="shell notice">Pro výběr metod zapněte JavaScript. Podklady v PDF najdete v patičce stránky.</p></noscript>
+</body></html>

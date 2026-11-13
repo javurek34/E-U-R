@@ -1,5 +1,7 @@
 # E–U–R · Metody do výuky
 
+Veřejný web: https://javurek34.github.io/E-U-R/
+
 Český průvodce výběrem výukové metody podle fáze hodiny. Úvod obsahuje jen tři volby: evokace, uvědomění si významu a reflexe. Výběr fáze otevře stručný seznam po šesti metodách. Postup, pomůcky a zadání se zobrazí až v detailu konkrétní metody.
 
 ## Spuštění
@@ -7,10 +9,10 @@
 Statický web bez instalace závislostí a sestavování:
 
 ```sh
-python3 -m http.server 8080 --directory dist
+python3 -m http.server 8080
 ```
 
-Otevřete http://localhost:8080. Web vyžaduje HTTP kvůli načtení `methods.json`.
+Otevřete http://localhost:8080. Web vyžaduje HTTP kvůli načtení `methods.json`. Po úpravě `dist/index.html` aktualizujte vstup pro GitHub Pages příkazem `node scripts/sync-entry.mjs`. Ostatní soubory zůstávají v `dist/` a používají se přímo, bez kopírování.
 
 ## Použití
 
@@ -43,6 +45,8 @@ Základ tvoří tři dodané přehledy PDF v `dist/sources/`. Jejich zařazení 
 
 ## Hosting a ověření
 
-Statický obsah je v `dist/`; `.openai/hosting.json` propojuje zdroj se stávajícím Sites webem. Publikace je soukromá. Automatické veřejné nasazování GitHub Pages není nastavené.
+GitHub Pages publikuje větev `main` z kořene repozitáře na https://javurek34.github.io/E-U-R/. Kořenový `index.html` odkazuje na soubory v `dist/`. Soubor `.nojekyll` vypíná zpracování Jekyllem.
+
+Statický obsah v `dist/` zůstává použitelný také samostatně; `.openai/hosting.json` propojuje zdroj s dřívějším soukromým Sites webem.
 
 Kontroly při úpravě zahrnovaly syntaxi JavaScriptu, úplnost dat, lokální odkazy a interakční testy navigace, šestipoložkového stránkování, filtrů, návratu z detailu, uložení a kopírování včetně zamítnuté schránky. Vizuální kontrola v prohlížeči nebyla v prostředí dostupná.

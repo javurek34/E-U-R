@@ -1,5 +1,6 @@
 'use strict';
 const $ = selector => document.querySelector(selector);
+const ASSET_BASE = new URL('.', document.currentScript.src);
 const PHASES = {
  E: {name:'Evokace',kicker:'01 / ZAČÁTEK HODINY',description:'Vyberte, jak otevřete téma a zjistíte, co už žáci vědí.',recommended:[9,1,51,54,5,6]},
  U: {name:'Uvědomění si významu',kicker:'02 / PRÁCE S NOVÝM UČIVEM',description:'Vyberte, jak budou žáci objevovat, zpracovávat a propojovat nové poznatky.',recommended:[12,13,16,11,60,15]},
@@ -113,7 +114,7 @@ function showDetail(m) {
  $('#copy-status').textContent='';$('#copy-fallback').hidden=true;$('#copy-prompt').disabled=false;
  const added=m.origin==='added';
  $('#detail-source').textContent=added?'Doplněná metoda mimo dodané PDF. Popis, příklad, zadání a postup jsou metodický návrh pro praxi. Čas i organizaci přizpůsobte své třídě.':`Metoda z dodaného přehledu ${PHASES[m.phase].name}. Popis a zařazení vycházejí z PDF. Čas, organizace, pomůcky, zadání, postup a metodické tipy jsou doplněné návrhy pro praxi.${m.phase==='R'?' U reflexe je doplněné také využití a konkrétní příklad.':''}`;
- $('#detail-pdf').hidden=added;$('#detail-pdf').href=added?'#':'sources/'+m.source+'.pdf';
+ $('#detail-pdf').hidden=added;$('#detail-pdf').href=added?'#':new URL('sources/'+m.source+'.pdf', ASSET_BASE).href;
  const next={E:'U',U:'R',R:null}[m.phase];$('#next-phase').href=next?'#faze/'+next:'#';$('#next-phase').textContent=next?'Pokračovat: '+PHASES[next].name+' →':'Zpět k výběru fáze →';
  updateSaveButton();document.title=m.name+' | Metody do výuky';
 }
@@ -133,7 +134,7 @@ async function copyPrompt() {
 }
 async function load() {
  $('#load-error').hidden=true;
- try {const response=await fetch('methods.json');if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();if(!Array.isArray(data)||!data.length||data.some(m=>!PHASES[m.phase]||!GROUPS[m.group]||!Array.isArray(m.steps)||!m.prompt||!m.watch||!Number.isFinite(m.minutes)))throw new Error('Invalid data');methods=data;
+ try {const response=await fetch(new URL('methods.json', ASSET_BASE));if(!response.ok)throw new Error('HTTP '+response.status);const data=await response.json();if(!Array.isArray(data)||!data.length||data.some(m=>!PHASES[m.phase]||!GROUPS[m.group]||!Array.isArray(m.steps)||!m.prompt||!m.watch||!Number.isFinite(m.minutes)))throw new Error('Invalid data');methods=data;
  saved=new Set([...saved].filter(id=>methods.some(m=>m.id===id)));persistSaved();
  for(const phase of Object.keys(PHASES))$('#count-'+phase).textContent=methods.filter(m=>m.phase===phase).length+' metod';
  route(false);
